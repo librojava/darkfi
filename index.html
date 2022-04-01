@@ -8,16 +8,15 @@ layout: default
  </div>
 </div>
 
-{% for featured-article in site.categories.featured-article %}
+{% for featured in site.categories.featured-article %}
 <div class = "to-featured-article">
-  <a class = "remove-underline" href ="{{site.baseurl}}{{featured-article.url}}">
+  <a class = "remove-underline" href ="{{site.baseurl}}{{featured.url}}">
 <div class = "featured-article">
  <span>
   <a>
-   <img src = "{{site.baseurl}}{{featured-article.img}}" class = "img-node">
+   <img src = "{{site.baseurl}}{{featured.img}}" class = "img-node">
   </a>
  </span>
-{% endfor %}
  
  <span class = "title">
   <h2 class = "vertical">Title.</h2>
@@ -32,6 +31,7 @@ layout: default
 </div>
 </a>
 </div>
+{% endfor %}
 
 <div class = "content1">
 <div class = "category">
