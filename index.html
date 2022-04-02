@@ -48,9 +48,9 @@
   <div class = "group">
   {% for article in site.categories.latest_articles %}
     <div class="latest-img">
-     <a class = "remove-underline" href = "{{article.url}}{{site.baseurl}}{{article.url}}">
+     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
       <div class="img-1">
-        <img src="{{article.url}}{{site.baseurl}}{{ article.img }}" class = "img-1">
+        <img src="{{site.baseurl}}{{ article.img | relative_url }}" class = "img-1">
       </div>
       <h2>{{ article.title }}</h2>
       <p>{{ article. pharagraph }}</p>
