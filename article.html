@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div class = "articles">
+<div class = "group">
   {% for article in site.categories.latest-articles %}
-   <div class = "article-node">
+   <div class = "latest-img">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
-      <div class = "article-node-img">
-        <img src = "{{site.baseurl}}{{article.img}}" class = "article-node-img">
+      <div class = "img-1">
+        <img src = "{{site.baseurl}}{{article.img}}" class = "img-1">
        </div>
       </a>
    </div>
