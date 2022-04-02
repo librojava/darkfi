@@ -76,32 +76,29 @@
  {% endfor %}
  </div>
 
-{% for category in site.categories.latest_articles %}
+
 <div class = "containers1">
  <div class = "latest-articles1">
   <div class ="paragraph" ><p>Latest articles</p></div>
   <div class = "group">
-   <div class = "img-1">
-     <a class = "remove-underline" href="{{site.baseurl}}{{category.url}}" style="color: white">
-       <img src = "{{site.baseurl}}{{category.img}}" style ="height: 60%; width: 100%;">
-     </a>
-    <figcaption class = "title-img" style ="height: 39.8%; width: 100%;">
-    <div class = "style">
-     <h3 class = "bar">{{category.title}}</h3>
-      </div>
-     <p>{{category.paragraph}}</p>
-      <ul>
-      <li><a>{{category.list1}}</a></li>
-      <li><a>{{category.list2}}</a></li>
-      <li><a>{{category.list3}}</a></li>
-      <li><a>{{category.list4}}</a></li>
-     </ul>
-    </figcaption>
-   </div>
-   </div>
+  {% for article in site.categories.algorithm %}
+  <div class = "latest-img">
+    <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
+    <div class = "img-1">
+      <img src= "{{site.baseurl}}{{article.img}}" class = "img-1">  
+    </div>
+    <span class = "article-node-par">
+      <p style="margin:10px;">
+      {{article.title}}
+      </p>
+    </span>
+    </a>
+  </div>
+  {% endfor %}
+
+</div>
  </div>
 </div>
-{% endfor %}
 </div>
 <div class = "above-footer">
       <span class ="to-archive">
