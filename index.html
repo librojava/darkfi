@@ -46,16 +46,17 @@ layout: default
  <div class = "latest-articles1">
   <div class ="paragraph" ><p>Latest articles</p></div>
   <div class = "group">
-   {% for latest-article in site.categories.latest-articles %}
+   {% for latest in site.categories.latest-articles %}
    <div class = "img-1">
-     <a class = "remove-underline" href="{{site.baseurl}}{{latest-article.url}}">
+     <a class = "remove-underline" href="{{site.baseurl}}{{latest.url}}">
       <div class = "latest-article-img">
-       <img src = "{{site.baseurl}}{{latest-article.img}}">
+       <img src = "{{site.baseurl}}{{latest.img}}">
        </div>
       </a>
       </div>
    {% endfor %}
-   </div>
+
+  </div>
   </div>
   </div>
 </div>
