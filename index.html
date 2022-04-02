@@ -29,9 +29,10 @@ layout: default
   </ul>
  </span>
 </div>
-</a>
+  </a>
 </div>
 {% endfor %}
+
 <h2><a href = "title.html">title</a></h2>
 
 <div class = "content1">
@@ -39,7 +40,7 @@ layout: default
  <h4 class = "categories">Categories</h4>
  <ul style="list-style: none;">
   {% for insight in site.categories.insights %}
-  <li>{{insight.title}}</li>
+  <li><a>{{site.baseurl}}{{insight.title}}</a></li>
   {% endfor %}
   {% for technology in site.categories.technologies %}
   <li>Technology</li>
