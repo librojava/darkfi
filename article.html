@@ -1,9 +1,10 @@
 ---
  layout: default
 ---
-
+<div class = "img_1">
   {% for article in site.categories.featured-articles %}
    
-      <img src= "{{site.baseurl}}{{article.img}}" style="width: 100px; height: 100px;">  
+      <img src= "{{site.baseurl}}{{article.img}}">  
    
   {% endfor %}
+</div>
