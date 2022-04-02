@@ -48,30 +48,16 @@ layout: default
   <div class = "group">
    {% for latest-article in site.categories.latest-articles %}
    <div class = "img-1">
-     <a class = "remove-underline" href="{{site.baseurl}}{{latest-article.url}}" style="color: white">
+     <a class = "remove-underline" href="{{site.baseurl}}{{latest-article.url}}">
       <div class = "latest-article-img">
-      <img src = "{{site.baseurl}}{{latest-article.img}}" style ="height: 60%; width: 100%;">
+       <img src = "{{site.baseurl}}{{latest-article.img}}">
+       </div>
+      </a>
       </div>
-     <figcaption class = "title-img" style ="height: 39.8%; width: 100%;">
-      <div class = "style">
-       <a href = "{{site.baseurl}}{{latest-article.url}}"
-        <h3 class = "bar">{{latest-article.title}}</h3>
-       </a>
-      </div>
-      <p>{{latest-article.paragraph}}</p>
-      <ul>
-      <li><a>{{latest-article.list1}}</a></li>
-      <li><a>{{latest-article.list2}}</a></li>
-      <li><a>{{latest-article.list3}}</a></li>
-      <li><a>{{latest-article.list4}}</a></li>
-     </ul>
-    </figcaption>
-   </a>
-   </div>
    {% endfor %}
    </div>
   </div>
- </div>
+  </div>
 </div>
 
  <div class = "content2">
