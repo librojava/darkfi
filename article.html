@@ -2,9 +2,9 @@
  layout: default
 ---
 <div class = "img_1">
-  {% for article in site.categories.featured-articles %}
+  {% for articleimg in site.categories.featured-articles %}
    
-      <img src= "{{site.baseurl}}{{article.img}}">  
+      <img src= "{{site.baseurl}}{{articleimg.img}}">  
    
   {% endfor %}
 </div>
