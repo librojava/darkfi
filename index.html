@@ -47,6 +47,9 @@ layout: default
   <div class ="paragraph" ><p>Latest articles</p></div>
   <div class = "group">
    {% for latest in site.categories.latest-articles %}
+   <p style="margin:10px;">
+      {{latest.title}}
+   </p>
    <div class = "img-1">
      <a class = "remove-underline" href="{{site.baseurl}}{{latest.url}}">
       <div class = "latest-article-img">
