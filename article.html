@@ -1,11 +1,16 @@
 ---
- layout: default
+layout: default
 ---
-<div class = "img_1">
-  {% for article in site.categories.featured-articles %}
-   
-      <img src= "{{article.img}}"> 
-      <h2>hello</2>
-   
+
+<div class = "articles">
+  {% for article in site.categories.latest-articles %}
+   <div calss = "article-node">
+    <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
+      <div class = "article-node-img">
+        <img src = "{{site.baseurl}}{{article.img}}" class = "article-node-img">
+       </div>
+      </a>
+   </div>
   {% endfor %}
+  
 </div>
