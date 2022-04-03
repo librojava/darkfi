@@ -189,12 +189,12 @@ footer{
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
+  display: table;
 }
 
 .latest-img{
   width: 48%;
   height: 48%;
-  display: table;
   border-top: 1px solid #343434;
   border-right: 1px solid #343434;
 }
