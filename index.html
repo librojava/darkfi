@@ -84,11 +84,15 @@
     <div class = "img-1">
       <img src= "{{site.baseurl}}{{article.img}}" class = "img-1">  
     </div>
-    <span class = "article-node-par">
-      <p style="margin:10px;">
+    <span>
+      <h3 class= "bar">
       {{article.title}}
-      </p>
+      </h3>
     </span>
+     <p>{{article.paragraph}}</p>
+     <ul>
+      <li>{{article.list1}}</li>
+      </ul>
     </a>
   </div>
   {% endfor %}
