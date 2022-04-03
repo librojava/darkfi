@@ -50,14 +50,13 @@
     <div class="latest-img">
      <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
       <div class="img-1">
-        <img src="{{site.baseurl}}{{ article.img | relative_url }}" class = "img-1">
+        <img src="{{site.baseurl}}{{article.img}}" class = "img-1">
       </div>
-      <h2>{{ article.title }}</h2>
-      <p>{{ article. pharagraph }}</p>
       </a>
     </div>
   {% endfor %}
   </div>
+  
   </div>
  </div>
  </div>
@@ -69,11 +68,9 @@
     <div class = "paragraph"><p>category1</p></div>
    </div>
 
- {% for all-article in site.categories.archive %}
  <div calss = "all-articles">
-  <p href = "{{site.baseurl}}{{all-article.url}}">All articles</p>
+  <p href = "{{site.baseurl}}/archive.html">All articles</p>
  </div>
- {% endfor %}
  </div>
 
 
@@ -81,7 +78,7 @@
  <div class = "latest-articles2">
   <div class ="paragraph" ><p>Latest articles</p></div>
   <div class = "group">
-  {% for article in site.categories.algorithm %}
+  {% for article in site.categories.latest_articles %}
   <div class = "latest-img">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
     <div class = "img-1">
