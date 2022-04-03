@@ -190,6 +190,7 @@ footer{
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
+  display: inline-table;
 }
 
 .latest-img{
@@ -197,7 +198,6 @@ footer{
   height: 45%;
   border-top: 1px solid #343434;
   border-right: 1px solid #343434;
-
 }
 
 .remove-underline{
