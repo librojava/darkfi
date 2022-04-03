@@ -197,8 +197,7 @@ footer{
   height: 45%;
   border-top: 1px solid #343434;
   border-right: 1px solid #343434;
-  display: flex;
-  flex-wrap: wrap;
+
 }
 
 .remove-underline{
@@ -210,6 +209,8 @@ footer{
   width: 100%;
   height: 60%;
   padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .title-img{
