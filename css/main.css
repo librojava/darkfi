@@ -146,6 +146,7 @@ footer{
   width: 60%;
   border-left: 0.01em solid #343434;
   height: 100%;
+  display: table;
 }
 .categories{
   border-left: 3px solid #b20a2c;
@@ -189,7 +190,6 @@ footer{
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
-  display: table;
 }
 
 .latest-img{
