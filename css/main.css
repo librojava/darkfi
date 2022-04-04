@@ -53,7 +53,7 @@ footer{
   src: url('font/Inter-Bold.woff') format('woff');
 }
 
-.featured_article {
+.featured_article{
   width: 100%;
   border-top: 1px solid #343434;
   border-bottom: 1px solid #343434;
