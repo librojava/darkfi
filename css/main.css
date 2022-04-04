@@ -175,14 +175,12 @@ footer{
   display: block;
 }
 .categories{
-  border-left: 3px solid #b20a2c;
-  height: 28px;
   padding-left: 40px;
-  
 }
+
 .categories_bar{
   border-left: 3px solid #b20a2c;
-  height: 28px;
+  height: 25px;
 }
 
 .category h4{
@@ -229,7 +227,7 @@ footer{
           
 .latest-img{
   max-width: 49.87%;
-  height: 49.76%;
+  height: 49.77%;
   border-right: 0.01em solid #343434;
   padding: 0;
 }
