@@ -190,15 +190,16 @@ footer{
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
-  display: inline-table;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+          
 .latest-img{
-  width: auto
+  max-width: 45%;
   height: 45%;
   border-top: 1px solid #343434;
   border-right: 1px solid #343434;
-  overflow: hidden;
+  padding: 0 1px;
 }
 
 .remove-underline{
@@ -210,8 +211,6 @@ footer{
   width: 100%;
   height: 60%;
   padding-bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .title-img{
