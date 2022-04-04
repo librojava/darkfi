@@ -164,8 +164,7 @@ footer{
   margin-top: 0;
   color: white;
   height: 100%;
-  margin-left: 40px;
-  background: linear-gradient(#000000 ,80% ,#001f18);
+  background: linear-gradient(#000000 ,90% ,#001f18);
 }
 
 .containers1{
@@ -174,6 +173,7 @@ footer{
   border-left: 0.01em solid #343434;
   height: 100%;
   display: block;
+  margin-left: 40px;
 }
 .categories{
   border-left: 3px solid #b20a2c;
