@@ -10,18 +10,6 @@
   font-family: "Inter-Black";
   src: url("../files/font/Inter-Black.woff");
 }
-@font-face{
-  font-family: "Chomsky";
-  src: url("../files/font/Chomsky.otf");
-}
-@font-face{
-  font-family: "Chomsky";
-  src: url("../files/font/Chomsky.otf");
-}
-@font-face{
-  font-family: "Chomsky";
-  src: url("../files/font/Chomsky.otf");
-}
 
 header{ 
   height: 75px;
@@ -75,8 +63,6 @@ footer{
   text-decoration: none;
   font-size: 13px;
   font-weight: bold;
-  font-family: "Inter Bold";
-  src: url('font/Inter-Bold.woff') format('woff');
 }
 
 .featured-article{
@@ -184,7 +170,7 @@ footer{
 }
 
 .category h4{
-  font-family: "IBMPlexMono-Regular" , sans-serif;
+  font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
   font-size: 14pt; 
   color: white;
