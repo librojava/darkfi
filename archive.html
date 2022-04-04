@@ -4,12 +4,12 @@ layout: default
 
 
 <div class = "archive">
-  {% for article in site.categories %}
+  {% for article in site.posts %}
  <span class = "title-archive">
-  <h3 class = "bar-archive">{{archive.title}}</h3>
-   <p>{{archive.paragraph}}</p>
+  <h3 class = "bar-archive">{{article.title}}</h3>
+   <p>{{article.paragraph}}</p>
    <ul>
-    <li><a>{{archive.list1}}</a></li>
+    <li><a>{{article.list1}}</a></li>
     <!--<li><a>{{archive.list2}}</a></li>
     <li><a>{{archive.list3}}</a></li>
     <li><a>{{archive.list4}}</a></li>-->
