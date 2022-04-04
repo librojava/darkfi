@@ -153,18 +153,18 @@ footer{
   height-line: 1em;     
 }
 .content1{
-  height: 829px;
+  height: 830px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
 
 .category{
-  width: 39.7%;
+  width: 39.9%;
   float: left;
   margin-top: 0;
   color: white;
   height: 100%;
-  background: linear-gradient(#000000 ,20% ,#001f18);
+  background: linear-gradient(#000000 ,30% ,#001f18);
 }
 
 .containers1{
@@ -269,7 +269,7 @@ footer{
   border-bottom: 0.01em solid #343434;
 }
 .content2{
-  height: 826px;
+  height: 825px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
