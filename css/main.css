@@ -195,9 +195,8 @@ footer{
 }
           
 .latest-img{
-  max-width: 45%;
-  height: 45%;
-  border-top: 1px solid #343434;
+  max-width: 49%;
+  height: 49%;
   border-right: 1px solid #343434;
   padding: 0 1px;
 }
