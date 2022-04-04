@@ -1,6 +1,6 @@
 @font-face{
   font-family: "Chomsky";
-  src: url("{{site.baseurl}}/files/font/Chomsky.otf");
+  src: url("../files/font/Chomsky.otf");
 }
 header{ 
   height: 75px;
