@@ -2,6 +2,26 @@
   font-family: "Chomsky";
   src: url("../files/font/Chomsky.otf");
 }
+@font-face{
+  font-family: "IBMPlexMono-Regular";
+  src: url("../files/font/IBMPlexMono-Regular.otf");
+}
+@font-face{
+  font-family: "Inter-Black";
+  src: url("../files/font/Inter-Black.woff");
+}
+@font-face{
+  font-family: "Chomsky";
+  src: url("../files/font/Chomsky.otf");
+}
+@font-face{
+  font-family: "Chomsky";
+  src: url("../files/font/Chomsky.otf");
+}
+@font-face{
+  font-family: "Chomsky";
+  src: url("../files/font/Chomsky.otf");
+}
 
 header{ 
   height: 75px;
@@ -74,7 +94,7 @@ footer{
 }
 
 .paragraph p{
-  font-family: "Inconsolata";
+  font-family: "IBMPlexMonoRegular", sans-serif;
 }
 
 .articles{
@@ -172,7 +192,7 @@ footer{
   padding-left: 15px;
   padding-top: 15px;
   color: white;
-  height-line: 0.1em;
+  height-line: 1em;
 }
 
 .category li{
@@ -457,20 +477,7 @@ footer{
      padding-bottom: 30px;
      border-right: none;
    }
-   .group .img-2{
-     width: 100%;
-     padding-bottom: 30px;
-     
-   }
-   .group .img-3{
-     width: 100%;
-     padding-bottom: 30px;
-     border-right: none;
-   }
-   .group .img-4{
-     width: 100%;
-     padding-bottom: 30px;
-   }
+ 
    .above-footer {
   height: 28%;
   display: table;
@@ -521,7 +528,7 @@ footer{
   position: absolute;
   color: white;
   top: 150px;
-  left: 310px;
+  left: 300px;
 }
 
 .text h1{
@@ -529,7 +536,9 @@ footer{
   height: 45px;
   padding-left: 10px;
   font-weight: bold;
-  font-size: 25pt;
+  font-size: 28pt;
+  font-family: "Inter-Black";
+
 }
 .article{
  color :#d9c9c9;
