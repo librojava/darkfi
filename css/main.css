@@ -195,10 +195,10 @@ footer{
 }
           
 .latest-img{
-  max-width: 49%;
-  height: 49%;
-  border-right: 1px solid #343434;
-  padding: 0 1px;
+  max-width: 49.3%;
+  height: 49.3%;
+  border-right: 0.01em solid #343434;
+  padding: 0
 }
 
 .remove-underline{
