@@ -159,12 +159,12 @@ footer{
 }
 
 .category{
-  width: 36%;
+  width: 38%;
   float: left;
   margin-top: 0;
   color: white;
   height: 100%;
-  background: linear-gradient(#000000 ,95% ,#001f18);
+  background: linear-gradient(#000000 ,20% ,#001f18);
 }
 
 .containers1{
@@ -173,7 +173,6 @@ footer{
   border-left: 0.01em solid #343434;
   height: 100%;
   display: block;
-  margin-left: 40px;
 }
 .categories{
   border-left: 3px solid #b20a2c;
