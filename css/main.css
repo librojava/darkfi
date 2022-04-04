@@ -294,8 +294,10 @@ footer{
   width: 39.9%;
   height: 100%;
   float: right;
-  color: aqua;
   border-left: 0.01em solid #343434;
+}
+.paragraphs{
+  color: aqua;
 }
 .containers2{
   float: left;
