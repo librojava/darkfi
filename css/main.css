@@ -222,7 +222,7 @@ footer{
   padding-top: 0;
   padding-bottom: 0;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow:row wrap;
 }
           
 .latest-img{
