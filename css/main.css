@@ -95,7 +95,7 @@ footer{
 }
 
 .paragraph p{
-  font-family: "IBMPlexMonoRegular", sans-serif;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
 .articles{
@@ -164,7 +164,7 @@ footer{
   margin-top: 0;
   color: white;
   height: 100%;
-  background: linear-gradient(#000000 ,30% ,#001f18);
+  background: linear-gradient(#000000 ,40% ,#001f18);
 }
 
 .containers1{
@@ -295,13 +295,13 @@ footer{
   height: 100%;
   float: right;
   border-left: 0.01em solid #343434;
-  color: aqua;
 }
 .paragraphs {
   color: aqua;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 35px;
   padding-top: 28px;
+  font-family: "IBMPlexMono-Regular" , sans-serif;
 }
 .containers2{
   float: left;
