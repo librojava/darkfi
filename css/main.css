@@ -195,8 +195,8 @@ footer{
 }
           
 .latest-img{
-  max-width: 49.86%;
-  height: 49.78%;
+  max-width: 49.87%;
+  height: 49.76%;
   border-right: 0.01em solid #343434;
   padding: 0
 }
@@ -238,8 +238,8 @@ footer{
 
 .group ul a{
   height-line: 2em;
-  border-top: 1px solid #343434;
-  border-bottom: 1px solid #343434;
+  border-top: 0.01em solid #343434;
+  border-bottom: 0.01em solid #343434;
 }
 .content2{
   height: 777px;
