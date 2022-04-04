@@ -1,3 +1,7 @@
+@font-face{
+  font-family: "Chomsky";
+  src: url("{{site.baseurl}}/files/font/Chomsky.otf");
+}
 header{ 
   height: 75px;
   width: 100%;
@@ -154,6 +158,7 @@ footer{
   
 }
 .category h4{
+  font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
   font-size: 14pt; 
   color: white;
