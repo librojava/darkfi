@@ -198,6 +198,7 @@ footer{
   height: 45%;
   border-top: 1px solid #343434;
   border-right: 1px solid #343434;
+  overflow: hidden;
 }
 
 .remove-underline{
