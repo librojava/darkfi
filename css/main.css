@@ -196,7 +196,7 @@ footer{
           
 .latest-img{
   max-width: 49.87%;
-  height: 49.762%;
+  height: 49.764%;
   border-right: 0.01em solid #343434;
   padding: 0
 }
@@ -269,7 +269,6 @@ footer{
 .containers2{
   float: left;
   width: 60%;
-  border-right: 0.01em solid #343434;
   height: 702px;
 }
 .above-footer{
