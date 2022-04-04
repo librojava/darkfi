@@ -177,8 +177,14 @@ footer{
 .categories{
   border-left: 3px solid #b20a2c;
   height: 28px;
+  padding-left: 40px;
   
 }
+.categories_bar{
+  border-left: 3px solid #b20a2c;
+  height: 28px;
+}
+
 .category h4{
   font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
