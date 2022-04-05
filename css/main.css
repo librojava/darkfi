@@ -71,18 +71,17 @@ footer{
   border-bottom: 1px solid #343434;
   height: 75px;
 }
-.featured-article p{
-  font-family: "IBMPlexMonoRegular" , sans-serif;
-}
-
-  
 .paragraph {
   color: #343434;
   text-align: left;
   padding-left: 25px;
   padding-top: 28px;
-  
+  }
+
+.featured-article .paragraph p{
+  font-family: "IBMPlexMonoRegular" , sans-serif;
 }
+
 
 .articles{
   width: 100%;
@@ -131,6 +130,9 @@ footer{
   display: inline;
   padding-right: 8px;
   font-size: 7pt;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
+
 }
 
 .title a{
@@ -254,6 +256,8 @@ footer{
   display: inline-block;
   padding-right: 7px;
   font-size: 8pt;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
 }
 
 .group ul a{
@@ -280,7 +284,7 @@ footer{
   width: 60%;
 }
 
-.latest-article2 p{
+.middle-table .latest-article2 p{
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
