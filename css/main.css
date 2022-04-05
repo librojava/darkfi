@@ -766,6 +766,7 @@ sup {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
+  font-family: "IBMPlexMono-Regular";
 }
 
 .go-to-article .next-article{
@@ -777,6 +778,7 @@ sup {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
+  font-family: "IBMPlexMono-Regular";
 }
 
 .arrow {
@@ -812,6 +814,7 @@ sup {
   padding-top: 40px;
   color: grey;
   font-family: "IBMPlexMono-Regular";
+  font-size: 9pt;
 }
 
 .archives{
