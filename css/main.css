@@ -78,7 +78,7 @@ footer{
   text-align: left;
   padding-left: 25px;
   padding-top: 28px;
-  font-family: "IBMPlexMonoRegular" , sans-serif;
+  
 }
 
 .articles{
@@ -196,6 +196,9 @@ footer{
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
+.latest-articles1 p{
+  font-family: "IBMPlexMono-Regular" , sans-serif;
+}
 
   
 .group{
@@ -273,6 +276,11 @@ footer{
   height: 100%;
   width: 60%;
 }
+
+.latest-article2 p{
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+}
+
 .all-articles{
   width: 39.9%;
   height: 100%;
