@@ -213,12 +213,19 @@ footer{
   flex-flow:row wrap;
 }
           
-.latest-img{
+<!--.latest-img{
   max-width: 49.87%;
   height: 49.77%;
   border-right: 0.01em solid #343434;
   padding: 0;
-}
+}-->
+.latest-img{
+  flex: 50%;
+  height: 50%;
+  border: 0.01em solid #343434;
+  border-right: none;
+  border-bottom: none;
+} 
 
 .remove-underline{
   text-decoration: none;
