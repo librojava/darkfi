@@ -71,7 +71,7 @@ footer{
   border-bottom: 1px solid #343434;
   height: 75px;
 }
-.paragraph p{
+.featured-article p{
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
@@ -273,9 +273,6 @@ footer{
   border-bottom: 0.01em solid #343434;
 
 }
-.middle-table p{
-  font-family: "IBMPlexMonoRegular" , sans-serif;
-}
 
 .latest-article2{
   float: left;
@@ -283,7 +280,7 @@ footer{
   width: 60%;
 }
 
-.latest-article2 p {
+.latest-article2 p{
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
