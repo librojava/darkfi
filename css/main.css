@@ -188,7 +188,7 @@ footer{
 .category li{
   font-weight: bold;
   font-size: 12pt;
-  height-line: 10px;
+  padding-top: 20px;
 }
 
 
@@ -811,7 +811,7 @@ sup {
 
 .under-arrow nav{
   float: right;
-  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .under-arrow nav a{
