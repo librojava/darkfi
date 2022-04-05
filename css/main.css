@@ -130,6 +130,8 @@ footer{
   display: inline;
   padding-right: 8px;
   font-size: 7pt;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
 
 }
 
@@ -137,8 +139,7 @@ footer{
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
   height-line: 1em;
-  font-family: "IBMPlexMonoRegular" , sans-serif;
-
+  
 }
 .content1{
   height: 830px;
@@ -185,12 +186,12 @@ footer{
   padding-left: 15px;
   padding-top: 15px;
   color: white;
-  height-line: 1em;
 }
 
 .category li{
   font-weight: bold;
   font-size: 12pt;
+  height-line: 1em;
 }
 
 
@@ -264,7 +265,6 @@ footer{
   height-line: 2em;
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
-  font-family: "IBMPlexMonoRegular" , sans-serif;
 
 }
 .content2{
