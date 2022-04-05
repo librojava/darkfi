@@ -76,11 +76,9 @@ footer{
   text-align: left;
   padding-left: 25px;
   padding-top: 28px;
-  font-family: "IBMPlexMonoRegular" , sans-serif;
 
   }
-
-.featured-article .paragraph p{
+ .paragraph p{
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
@@ -270,7 +268,7 @@ footer{
 
 }
 .content2{
-  height: 826px;
+  height: 830px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
@@ -287,8 +285,7 @@ footer{
   height: 100%;
   width: 60%;
 }
-
-.middle-table .latest-article2 p{
+ .latest-article2 p{
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
