@@ -2,10 +2,12 @@
   font-family: "Chomsky";
   src: url("../files/font/Chomsky.otf");
 }
+
 @font-face{
   font-family: "IBMPlexMono-Regular";
   src: url("../files/font/IBMPlexMono-Regular.otf");
 }
+
 @font-face{
   font-family: "Inter-Black";
   src: url("../files/font/Inter-Black.woff");
@@ -78,8 +80,7 @@ footer{
   text-align: left;
   padding-left: 25px;
   padding-top: 28px;
-
-  }
+ }
 
 
 .articles{
@@ -129,8 +130,6 @@ footer{
   display: inline;
   padding-right: 8px;
   font-size: 7pt;
-
-
 }
 
 .title a{
@@ -161,6 +160,7 @@ footer{
   height: 100%;
   display: block;
 }
+
 .categories{
   padding-left: 40px;
 }
@@ -243,6 +243,7 @@ footer{
   font-weight: bold;
   font-size: 16px;
 }
+
 .group ul{
   padding: 0;
   margin: 0;
@@ -253,9 +254,7 @@ footer{
   display: inline-block;
   padding-right: 7px;
   font-size: 8pt;
-  
-
-}
+ }
 
 .group ul a{
   height-line: 2em;
@@ -288,18 +287,20 @@ footer{
   float: right;
   border-left: 0.01em solid #343434;
 }
+
 .paragraphs {
   color: aqua;
   text-align: left;
   padding-left: 35px;
   padding-top: 28px;
-  }
+ }
   
 .containers2{
   float: left;
   width: 60%;
   height: 752px;
 }
+
 .above-footer{
   border-bottom: 0.01em solid #343434;
   height: 125px;
@@ -339,6 +340,7 @@ footer{
   height: 100%;
   border-left: 0.01em solid #343434;
 }
+
 .down-follow-img{
   padding-top: 40px;
   padding-left:100px;
@@ -353,6 +355,7 @@ footer{
   margin-top: 30px;
   display: inline-block;
 }
+
 .box1{
   width: 25px;
   margin-left: 120px;
@@ -374,6 +377,7 @@ footer{
   width: 25px;
   margin-left: 150px;
 }
+
 .box5{
   width: 40px;
   margin-left: 100px;
@@ -427,7 +431,8 @@ footer{
   
  .content{
    display: block;
-   }
+  }
+   
   .content .category{
     width: 100%;
     height: 100%;
@@ -474,14 +479,15 @@ footer{
    
    .group{
      display: table;
-   }
+  }
+   
    .group .img-1{
      width: 100%;
      padding-bottom: 30px;
      border-right: none;
    }
  
-   .above-footer {
+.above-footer {
   height: 28%;
   display: table;
   border-bottom: none;
@@ -517,16 +523,18 @@ footer{
   
  }
 }
+
 .article-image{
   position: relative;
 }
 
-.content-img {
+.content-img{
   border-top: 1px solid #343434;
   width: 100%;
   height: 375px;
   margin-top: 1px;
 }
+
 .article-image .text{
   position: absolute;
   color: white;
@@ -541,8 +549,8 @@ footer{
   font-weight: bold;
   font-size: 30pt;
   font-family: "Inter-Black", sans-serif;
-
 }
+
 .article{
  color :#d9c9c9;
  margin-left: 360px;
@@ -580,9 +588,9 @@ sup {
   color: #6b6a6a;
   text-decoration: none;
   font-family: 'serif';
-  font-size: 11pt;
-  
+  font-size: 11pt;  
 }
+
 .head1 .border{
   border-left: 1px solid aqua;
   height: 55px;
@@ -609,10 +617,12 @@ sup {
   border-left: 5px solid aqua;
   padding-left: 15px;
 }
+
 .big-title h2{
   border-left: 3px solid #a94b3c;
   padding-left: 15px; 
 }
+
 .code{
   border: 0.001em solid #61a4b0;
   background: #151212;
@@ -623,8 +633,7 @@ sup {
   font-size: 10pt;
   font-family: 'Inconsolata';
   white-space: pre-wrap;
-  line-height: 0.7em;
-  
+  line-height: 0.7em;  
 }
 
 .article-bar{
@@ -790,9 +799,9 @@ sup {
   padding-left: 25px;
   padding-top: 28px;
   font-family: "Inconsolata";
-  width: 50%;
-  
+  width: 50%;  
 }
+
 .under-arrow nav{
   float: right; 
 }
@@ -857,6 +866,7 @@ sup {
   border-bottom: 0.01em solid #343434;
   height-line: 1em;     
 }
+
 .above-footer-archive {
   border-bottom:0.01em solid #343434;
   height: 100px;
@@ -886,12 +896,14 @@ sup {
   padding-top:12px;
   font-weight: bold;
 }
+
 .tag{
   float: right;
   width: 45%;
   height: 100%;
   border-left: 0.01em solid #343434;
 }
+
 .down-follow-img{
   padding-top: 40px;
   padding-left:100px;
@@ -904,6 +916,7 @@ sup {
   .arrow{
     display: none;
   }
+  
  .under-arrow{
    width: 100%;
    height: 27%;
@@ -914,11 +927,9 @@ sup {
 .under-arrow .Archive1{
     border-bottom:1px solid #343434;
     height: 50%;
-    width: 100%;
-    
+    width: 100%;  
   }
   
-
  .under-arrow nav{
     float: left;
     width: 100%;
@@ -964,15 +975,14 @@ sup {
   
 .down-follow-img{
   padding-left: 19%;
-  
 }
 
 
 @media only screen and (max-width: 768px) and (min-width: 350px){
   
-  .head nav{
-    display: none;
-  }
+.head nav{
+  display: none;
+}
   
   .article-image{
     position: relative;
@@ -993,12 +1003,12 @@ sup {
     margin-right: 20px;
   }
   
-  .list{
+.list{
   width: 90%;
   font-size: 15pt;
 }
   
-  .list li {
+.list li {
   margin-left: 10px;
   font-size: 9pt;
 }
@@ -1038,7 +1048,7 @@ sup {
   line-height: 1.5em;
 } 
  
-  #resp-table{
+#resp-table{
   width: 90%;
 }
 
@@ -1050,7 +1060,7 @@ sup {
   
 footer{
   width: 100%;
-  }
+ }
   
 .box1{
   width: 15px;
@@ -1084,7 +1094,7 @@ footer{
 .box7{
   width: 0;
   height: 0;
-  }
+}
 
 .box8{
   width: 0;
@@ -1098,8 +1108,4 @@ footer{
   
 }
   
-  
  
-  
-  
-  
