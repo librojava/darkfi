@@ -71,6 +71,9 @@ footer{
   border-bottom: 1px solid #343434;
   height: 75px;
 }
+.featured-article p{
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+}
 
   
 .paragraph {
@@ -277,7 +280,7 @@ footer{
   width: 60%;
 }
 
-.latest-article2 p{
+.latest-article2 p {
   font-family: "IBMPlexMonoRegular" , sans-serif;
 }
 
