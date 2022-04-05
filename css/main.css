@@ -156,7 +156,6 @@ footer{
 .containers1{
   float: right;
   width: 60%;
-  border-left: 0.01em solid #343434;
   height: 100%;
   display: block;
 }
@@ -198,7 +197,6 @@ footer{
   height: 75px;
   display: table;
   width: 100%;
-  border-bottom: 0.01em solid #343434;
 }
 
 
@@ -221,7 +219,7 @@ footer{
 }-->
 .latest-img{
   flex: 50%;
-  height: 50%;
+  height: 49.77%;
   border: 0.01em solid #343434;
   border-right: none;
   border-bottom: none;
