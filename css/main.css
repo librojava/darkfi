@@ -809,7 +809,8 @@ sup {
 }
 
 .under-arrow nav{
-  float: right; 
+  float: right;
+  margin-left: 15px;
 }
 
 .under-arrow nav a{
@@ -818,7 +819,7 @@ sup {
   padding-top: 40px;
   color: grey;
   font-family: "IBMPlexMono-Regular";
-  font-size: 9pt;
+  font-size: 10pt;
 }
 
 .archives{
