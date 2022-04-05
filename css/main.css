@@ -273,6 +273,9 @@ footer{
   border-bottom: 0.01em solid #343434;
 
 }
+.middle-table p{
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+}
 
 .latest-article2{
   float: left;
