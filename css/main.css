@@ -76,6 +76,8 @@ footer{
   text-align: left;
   padding-left: 25px;
   padding-top: 28px;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
   }
 
 .featured-article .paragraph p{
@@ -130,15 +132,15 @@ footer{
   display: inline;
   padding-right: 8px;
   font-size: 7pt;
-  font-family: "IBMPlexMonoRegular" , sans-serif;
-
 
 }
 
 .title a{
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
-  height-line: 1em;     
+  height-line: 1em;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
 }
 .content1{
   height: 830px;
@@ -264,6 +266,8 @@ footer{
   height-line: 2em;
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
+  font-family: "IBMPlexMonoRegular" , sans-serif;
+
 }
 .content2{
   height: 826px;
