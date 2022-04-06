@@ -162,11 +162,11 @@ footer{
 }
 
 .categories{
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .categories_bar{
-  border-left: 3px solid #b20a2c;
+  border-left: 4px solid #b20a2c;
   height: 25px;
 }
 
@@ -176,13 +176,12 @@ footer{
   font-size: 14pt; 
   color: white;
   text-decoration: none;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .category ul{
   margin: 0;
   padding-left: 15px;
-  padding-top: 15px;
   color: white;
 }
 
