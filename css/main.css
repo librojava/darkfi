@@ -79,7 +79,8 @@ footer{
   color: #343434;
   text-align: left;
   padding-left: 25px;
-  padding-top: 28px;
+  padding-top: 34px;
+  font-size: 9pt;
  }
 
 
@@ -139,7 +140,7 @@ footer{
 }
 
 .content1{
-  height: 830px;
+  height: 823px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
@@ -173,7 +174,7 @@ footer{
 .category h4{
   font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
-  font-size: 16pt; 
+  font-size: 17pt; 
   color: white;
   text-decoration: none;
   padding-top: 5px;
@@ -333,20 +334,20 @@ footer{
 }
 
 .above-footer .go-to-archive{
-  width: 130px;
+  width: 137px;
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
   border-right: 0.01em solid #343434;
-  border-left: 6px solid aqua;
+  border-left: 8px solid aqua;
   height: 35px;
   margin: 30px;
   margin-top: 35px;
 }
 
 .above-footer p{
-  padding-left: 40px;
+  padding-left: 3em;
   width: 30%;
-  padding-top: 12px;
+  padding-top: 17px;
   font-weight: bold;
   text-decoration: none;
   border-left: 0.01em solid #343434;
@@ -360,7 +361,7 @@ footer{
 }
 
 .down-follow-img{
-  padding-top: 40px;
+  padding-top: 55px;
   padding-left:100px;
   width: 20px;
   height: 20px;
