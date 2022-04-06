@@ -173,7 +173,7 @@ footer{
 .category h4{
   font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
-  font-size: 14pt; 
+  font-size: 16pt; 
   color: white;
   text-decoration: none;
   padding-top: 5px;
@@ -191,8 +191,8 @@ footer{
   padding-top: 5px;
 }
 
-.category li a{
- &hover{
+.category a{
+ hover{
    color: red;
 }
 }
@@ -302,6 +302,7 @@ footer{
   height: 75px;
   float: right;
   border-bottom: 0.01em solid #343434;
+  font-size: 9pt;
 }
 
 .paragraphs {
