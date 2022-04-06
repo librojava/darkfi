@@ -8,7 +8,6 @@
   src: url("../files/font/IBMPlexMono-Regular.otf");
 }
 
-
 @font-face{
   font-family: "Inter-Black";
   src: url("../files/font/Inter-Black.woff");
@@ -146,7 +145,7 @@ footer{
 }
 
 .category{
-  width: 39.89%;
+  width: 39.94%;
   float: left;
   margin-top: 0;
   color: white;
@@ -209,7 +208,7 @@ footer{
 
 .group{
   width: 100%;
-  height: 748px;
+  height: 748.4px;
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
