@@ -225,6 +225,7 @@ footer{
   border: 0.01em solid #343434;
   border-right: none;
   border-bottom: none;
+  padding: 0;
 } 
 
 .remove-underline{
