@@ -49,7 +49,7 @@
   <p class ="paragraph" style="font-family: IBMPlexMono-Regular;">Latest articles</p>
  </div>
  <div class = "group">
-  {% for article in site.categories.posts limit:4 %}
+  {% for article in site.posts limit:4 %}
     <div class="latest-img">
      <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
       <div class="img-1">
@@ -94,7 +94,7 @@
 
 
   <div class = "group">
-  {% for article in site.technology limit:4 %}
+  {% for article in site.categories.technology limit:4 %}
   <div class = "latest-img">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
     <div class = "img-1">
