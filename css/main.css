@@ -318,6 +318,7 @@ footer{
   float: left;
   width: 60%;
   height: 100%;
+  border-right: 0.1em solid #343434;
 }
 
 .above-footer{
