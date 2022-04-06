@@ -95,7 +95,7 @@
 
 
   <div class = "group">
-  {% for article in site.categories.latest_articles %}
+  {% for article in site.posts limit:4 %}
   <div class = "latest-img">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
     <div class = "img-1">
