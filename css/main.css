@@ -220,13 +220,19 @@ footer{
 }*/
 
 .latest-img{
-  flex: 49.87%;
+  width: 49.87%;
   height: 49.77%;
   border: 0.01em solid #343434;
   border-right: none;
   border-bottom: none;
   padding: 0;
+  float: left;
 } 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .remove-underline{
   text-decoration: none;
