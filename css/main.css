@@ -208,7 +208,7 @@ footer{
 
 .group{
   width: 100%;
-  height: 745px;
+  height: 746px;
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
@@ -282,7 +282,7 @@ footer{
  }
   
 .content2{
-  height: 830px;
+  height: 828px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
@@ -290,8 +290,6 @@ footer{
 .middle-table{
   height: 75px;
   width: 100%;
-  border-bottom: 0.01em solid #343434;
-
 }
 
 .latest-article2{
@@ -304,7 +302,7 @@ footer{
   width: 39.8%;
   height: 75px;
   float: right;
-  border-left: 0.01em solid #343434;
+  border-bottom: 0.01em solid #343434;
 }
 
 .paragraphs {
