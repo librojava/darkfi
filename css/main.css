@@ -193,7 +193,7 @@ footer{
 }
 
 .category li a{
-  &:hover {
+ hover {
    color: red;
 }
 }
@@ -316,7 +316,7 @@ footer{
 .containers2{
   float: left;
   width: 60%;
-  height: 752px;
+  height: 100%;
 }
 
 .above-footer{
