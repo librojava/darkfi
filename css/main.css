@@ -800,13 +800,6 @@ sup {
   padding-top: 13px;
 }
 
-.edge ul .section::before{
-  content: "\2191" "2";
-  dispaly: inline-block;
-  color: aqua;
-  padding-top: 13px;
-}
-
 .edge p{
    color: #778899;
    font-family: 'Inconsolata';
