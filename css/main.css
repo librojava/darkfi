@@ -692,8 +692,9 @@ sup {
 .code{
   border: 0.001em solid #61a4b0;
   background: #151212;
-  padding: 25px;
-  width: 550px;
+  width: 595px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: 285px;
   color: #c0c0c0;
   font-size: 10pt;
