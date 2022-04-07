@@ -54,12 +54,11 @@ footer{
 }
 
 .head h1{
-  text-align: center;
   font-size: 24pt;
   font-style: inter-Black;
   text-shadow: 0 0 4px Aqua;
   padding-bottom: 15px;
-  padding-left: 400px;
+  padding-left: 550px;
   letter-spacing: -0.05em; 
   color: white;
   font-weight: bold;
