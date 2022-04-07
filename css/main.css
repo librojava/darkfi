@@ -120,7 +120,8 @@ footer{
 
 .title h2{
   padding-left: 19px;
-  font-weight: bold;
+  font-weight: bold;  
+  font-family: "Inter-Bold.woff";
 }
 
 .title ul{
@@ -191,6 +192,7 @@ footer{
 .category li{
   font-size: 12pt;
   padding-top: 5px;
+  font-family: "Inter-Bold.woff";
 }
 
 .category a{
@@ -244,6 +246,7 @@ footer{
   padding-top: 10px;
   font-size: 10px;
   font-weight: bold;
+  font-family: "Inter-Bold.woff";
 }
 
 .bar{
@@ -366,6 +369,7 @@ footer{
   font-weight: bold;
   text-decoration: none;
   border-left: 0.01em solid #343434;
+  font-family: "Inter-Bold.woff";
 }
 
 .tag{
