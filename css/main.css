@@ -343,15 +343,13 @@ footer{
   width: 50%;
   height: 100%;
   border-left: 0.01em solid #343434;
-}
-
-.all-number{
+  margin-left: 40px;
   margin-top: 20px;
-  margin-left:70px;
-  color: grey;
 }
 
 .all-number p{
+  paading-left:20px;
+  color: grey;
   display: inline;
   border-right: 0.1em solid #343434;
 }
