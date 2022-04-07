@@ -334,13 +334,13 @@ footer{
 
 .number-one{
   float: left;
-  width: 50%;
+  width: 45%;
   height: 100%;
 }
 
 .all-number{
   float: right;
-  width: 50%;
+  width: 54%;
   height: 100%;
   border-left: 0.01em solid #343434;
 }
