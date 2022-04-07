@@ -59,7 +59,7 @@ footer{
   font-style: inter-Black;
   text-shadow: 0 0 4px Aqua;
   padding-bottom: 15px;
-  padding-left: 250px;
+  padding-left: 400px;
   letter-spacing: -0.05em; 
   color: white;
   font-weight: bold;
@@ -71,7 +71,7 @@ footer{
   display: auto;
   margin-top: 10px;  
   margin-left: 15px;
-  margin-right: 20px;
+  margin-right: 50px;
   text-decoration: none;
   font-size: 13px;
   font-family: "Inter-Bold.woff";
