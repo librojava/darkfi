@@ -45,14 +45,14 @@ footer{
   display: grid;
 }
 
-.head img{
+header img{
   float: left;
   width: 40px;
   height: 40px;
   padding-left: 20px;
 }
 
-.head h1{
+header h1{
   width: 100px;
   height: 100%;
   font-size: 24pt;
@@ -70,7 +70,7 @@ nav{
   float: right;
 }
 
-.head a{
+header a{
   float: right;
   color: white;
   display: auto;
