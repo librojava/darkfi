@@ -19,7 +19,7 @@ layout: default
 
 
 <div class = "archives">
-  {% for article in site.posts %}
+  {% for article in site.posts limit:4 %}
 <div class = "archive">
  <span class = "title-archive">
   <h3 class = "bar-archive">{{article.title}}</h3>
