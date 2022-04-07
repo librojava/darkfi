@@ -345,10 +345,13 @@ footer{
   border-left: 0.01em solid #343434;
 }
 
-.all-number p{
+.all-number{
   margin-top: 20px;
-  margin-left:20px;
+  margin-left:70px;
   color: grey;
+}
+
+.all-number p{
   display: inline;
   border-right: 0.1em solid #343434;
 }
