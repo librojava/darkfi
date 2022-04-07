@@ -334,24 +334,25 @@ footer{
 
 .number-one{
   float: left;
-  width: 50%;
+  width: 40%;
   height: 100%;
 }
 
 .all-number{
   float: right;
-  width: 40%;
+  width: 60%;
   height: 100%;
   border-left: 0.01em solid #343434;
 }
 
 .down-number{
   margin-top: 55px;
-  margin-left:100px;
+  margin-left:50px;
   width: 20px;
   height: 20px;
   color: grey;
   display: inline;
+  border-right: 0.1em solid #343434;
 }
 
 
