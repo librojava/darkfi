@@ -17,6 +17,11 @@
   font-family: "Inter-Bold.woff";
   src: url("../files/font/Inter-Bold.woff");
 }
+@font-face{
+  font-family: "Inter-Regular.woff";
+  src: url("../files/font/Inter-Regular.woff");
+}
+
 
 header{ 
   height: 75px;
@@ -597,7 +602,7 @@ footer{
   
 }
 .article p{
-  font-family: "Inter-Bold.woff";
+   font-family: "Inter-Regular.woff";
 }
 
 .list ul{
