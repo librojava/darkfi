@@ -613,7 +613,7 @@ footer{
 .list li {
   display: inline-block;
   margin-left: 8px;
-  font-size: 7pt;
+  font-size: 8pt;
 }
 
 .list a{
@@ -626,7 +626,7 @@ footer{
   font-family: "Inter-Bold.woff";
 }
 .head1 h2{
-  font-size: 14pt;
+  font-size: 27pt;
 }
 
 sup {
@@ -663,6 +663,9 @@ sup {
   border-left: 1px solid aqua;
   height: 20px;
   padding-left: 10px;
+  }
+
+.caption p{
   font-family: "IBMPlexMono-Regular.otf";
 }
 
