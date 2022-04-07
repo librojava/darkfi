@@ -667,7 +667,7 @@ sup {
   }
 
 .caption p{
-  font-family: "IBMPlexMono-Regular.otf";
+  font-family: "IBMPlexMono-Regular";
 }
 
 .bottom-img .caption{
@@ -693,13 +693,13 @@ sup {
   border: 0.001em solid #61a4b0;
   background: #151212;
   padding: 25px;
-  width: 595px;
+  width: 565px;
   height: 285px;
   color: #c0c0c0;
   font-size: 10pt;
   white-space: pre-wrap;
   line-height: 0.7em; 
-  font-family: "IBMPlexMono-Regular.otf";
+  font-family: "IBMPlexMono-Regular";
 }
 
 .article-bar{
