@@ -50,6 +50,7 @@ footer{
   width: 40px;
   height: 40px;
   padding-left: 20px;
+  padding-top: 20px;
 }
 
 .header h1{
@@ -59,7 +60,7 @@ footer{
   font-style: inter-Black;
   text-shadow: 0 0 4px Aqua;
   padding-bottom: 15px;
-  padding-left: 600px;
+  padding-left: 45%;
   letter-spacing: -0.05em; 
   color: white;
   font-weight: bold;
