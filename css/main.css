@@ -625,6 +625,9 @@ footer{
 .head1{
   font-family: "Inter-Bold.woff";
 }
+.head1 h2{
+  font-size: 14pt;
+}
 
 sup {
   font-weight: bold;
