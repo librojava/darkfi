@@ -734,11 +734,12 @@ sup {
   line-height: 1.7em;
 }
 
-.second-bar h2{
+.article h2{
   border-left: 3px solid #a94b3c;
   padding-left: 15px; 
   font-family: "Inter-Bold.woff";
 }
+
 #resp-table{
   width: 65%;
   display: table;
