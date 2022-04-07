@@ -106,7 +106,7 @@ footer{
   width: 48%;
   float: right;
   color: white;
-  font-size: 12pt;
+  font-size: 16pt;
   height: 200px;
   padding-top: 20px;
 }
@@ -118,7 +118,7 @@ footer{
 }
 
 .title h2{
-  padding-left: 15px;
+  padding-left: 19px;
   font-weight: bold;
 }
 
@@ -131,7 +131,7 @@ footer{
 .title li{
   display: inline;
   padding-right: 7px;
-  font-size: 6pt;
+  font-size: 7pt;
 }
 
 .title a{
@@ -215,13 +215,6 @@ footer{
   display: flex;
   flex-flow:row wrap;
 }
-          
-/*.latest-img{
-  max-width: 49.87%;
-  height: 49.77%;
-  border-right: 0.01em solid #343434;
-  padding: 0;
-}*/
 
 .latest-img{
   width: 49.87%;
@@ -273,7 +266,7 @@ footer{
 .group li{
   display: inline-block;
   padding-right: 7px;
-  font-size: 8pt;
+  font-size: 7pt;
  }
 
 .group ul a{
