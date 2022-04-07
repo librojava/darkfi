@@ -68,13 +68,16 @@ footer{
   color: white;
   font-weight: bold;
 }
-nav{
+.nav{
   height: 100%;
   width: 400px;
   float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
-.head a{
+.nav li{
+  display: inline-block;
   float: right;
   color: white;
   display: auto;
