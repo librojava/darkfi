@@ -588,12 +588,16 @@ footer{
   padding-left: 10px;
   font-weight: bold;
   font-size: 30pt;
-  font-family: "Inter-Bold.woff2", sans-serif;
+  font-family: "Inter-Bold.woff", sans-serif;
 }
 
 .article{
  color :#d9c9c9;
  margin-left: 360px;
+  
+}
+.article p{
+  font-family: "Inter-Bold.woff";
 }
 
 .list ul{
@@ -611,6 +615,10 @@ footer{
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
   height-line: 1em;     
+}
+
+.head1{
+  font-family: "Inter-Bold.woff";
 }
 
 sup {
@@ -647,6 +655,7 @@ sup {
   border-left: 1px solid aqua;
   height: 20px;
   padding-left: 10px;
+  font-family: "IBMPlexMono-Regular.otf";
 }
 
 .bottom-img .caption{
@@ -658,9 +667,14 @@ sup {
   padding-left: 15px;
 }
 
+.big-title h1{
+  font-family: "Inter-Bold.woff";
+}
+
 .big-title h2{
   border-left: 3px solid #a94b3c;
   padding-left: 15px; 
+  font-family: "Inter-Bold.woff";
 }
 
 .code{
@@ -671,18 +685,23 @@ sup {
   height: 285px;
   color: #c0c0c0;
   font-size: 10pt;
-  font-family: 'Inconsolata';
   white-space: pre-wrap;
-  line-height: 0.7em;  
+  line-height: 0.7em; 
+  font-family: "IBMPlexMono-Regular.otf";
 }
 
 .article-bar{
   border-left: 5px solid #A2A3A3;
-  height: 30px; 
+  height: 30px;
 }
 
 .third h3{
   padding-left: 20px; 
+  font-family: "Inter-Bold.woff";
+}
+
+.third h4{
+  font-family: "Inter-Bold.woff";
 }
 
 .side_bar{
