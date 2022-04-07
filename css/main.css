@@ -65,6 +65,10 @@ footer{
   color: white;
   font-weight: bold;
 }
+.navigation{
+  height: 100%;
+  width: 400px;
+}
 
 .head a{
   float: right;
