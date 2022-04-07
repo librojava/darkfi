@@ -735,12 +735,6 @@ sup {
   font-family: "Inter-Bold.woff";
 }
 
-.article h2{
-  border-left: 3px solid #a94b3c;
-  padding-left: 15px; 
-  font-family: "Inter-Bold.woff";
-}
-
 #resp-table{
   width: 65%;
   display: table;
