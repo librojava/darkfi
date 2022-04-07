@@ -328,19 +328,19 @@ footer{
 
 .number-table{
   border-bottom: 0.01em solid #343434;
-  height: 100px;
+  height: 75px;
   width: 100%;
 }
 
 .number-one{
   float: left;
-  width: 57%;
+  width: 50%;
   height: 100%;
 }
 
 .all-number{
   float: right;
-  width: 42%;
+  width: 40%;
   height: 100%;
   border-left: 0.01em solid #343434;
 }
@@ -351,6 +351,7 @@ footer{
   width: 20px;
   height: 20px;
   color: grey;
+  display: inline;
 }
 
 
