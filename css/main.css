@@ -345,15 +345,6 @@ footer{
   border-left: 0.01em solid #343434;
 }
 
-.all-number p{
-  paading-left:20px;
-  color: grey;
-  display: inline;
-  border-right: 0.1em solid #343434;
-}
-
-
-
 .above-footer{
   border-bottom: 0.01em solid #343434;
   height: 125px;
