@@ -14,8 +14,8 @@
 }
 
 @font-face{
-  font-family: "Inter-Bold.woff2";
-  src: url("../files/font/Inter-Bold.woff2");
+  font-family: "Inter-Bold.woff";
+  src: url("../files/font/Inter-Bold.woff");
 }
 
 header{ 
