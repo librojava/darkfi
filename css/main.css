@@ -326,6 +326,35 @@ footer{
   border-right: 0.1em solid #343434;
 }
 
+.number-table{
+  border-bottom: 0.01em solid #343434;
+  height: 100px;
+  width: 100%;
+}
+
+.number-one{
+  float: left;
+  width: 57%;
+  height: 100%;
+}
+
+.all-number{
+  float: right;
+  width: 42%;
+  height: 100%;
+  border-left: 0.01em solid #343434;
+}
+
+.down-number{
+  margin-top: 55px;
+  margin-left:100px;
+  width: 20px;
+  height: 20px;
+  color: grey;
+}
+
+
+
 .above-footer{
   border-bottom: 0.01em solid #343434;
   height: 125px;
