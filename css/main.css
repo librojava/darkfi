@@ -69,7 +69,6 @@ footer{
   margin-right: 20px;
   text-decoration: none;
   font-size: 13px;
-  font-weight: bold;
 }
 
 .featured-article{
@@ -120,10 +119,6 @@ footer{
 
 .title h2{
   padding-left: 15px;
-  font-weight: bold;
-}
-
-.title p{
   font-weight: bold;
 }
 
@@ -193,7 +188,6 @@ footer{
 }
 
 .category li{
-  font-weight: bold;
   font-size: 12pt;
   padding-top: 5px;
 }
