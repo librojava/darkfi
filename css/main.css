@@ -159,7 +159,7 @@ footer{
 }
 
 .content1{
-  height: 823px;
+  height: 1024px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
@@ -230,7 +230,7 @@ footer{
   background-color: black;
   padding-top: 0;
   padding-bottom: 0;
-  
+  display: flex;
   flex-flow:row wrap;
 }
 
@@ -296,7 +296,7 @@ footer{
  }
   
 .content2{
-  height: 823px;
+  height: 1024px;
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
