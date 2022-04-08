@@ -477,7 +477,7 @@ footer{
   }
   
   .title-img{
-    font-size: 16.5%;
+    font-size: 16.5px;
   }
   
  .box1{
@@ -515,12 +515,8 @@ footer{
 .box9{
   margin-left: 2.5%;
   }
-  
-  .side_bar{
-    margin-right: 24.6%;
- }
-  
 }
+
 .article-image{
   position: relative;
 }
@@ -796,6 +792,27 @@ sup {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1920px) and (min-width: 1400px){
+  .side_bar{
+    margin-right: 24.6%;
+ }
+  #resp-table{
+    width: 38%;
+  }
+  .article{
+    margin-left: 33%;
+  }
+  .article-img .text{
+    top: 130px;
+    left: 520px;
+  }
+  
+  .text h1{
+    font-size: 43pt;
+  }
 }
 
 .arrow {
