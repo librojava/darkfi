@@ -461,7 +461,7 @@ footer{
   margin-left: 10px;
 }
 
- @media only screen and (max-width: 768px){
+ @media only screen and (max-width: 1920px){
    
   body{
     margin: 0;
@@ -476,12 +476,6 @@ footer{
     width: 100%;
   }
    
- .articles .title{
-   padding-bottom: 30px;
-   float: left;
-   padding-left: 20px;
-   width: 100%;
-   }
   
  .content{
    display: block;
