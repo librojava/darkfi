@@ -211,11 +211,10 @@ footer{
   font-family: "Inter-Bold.woff";
 }
 
-.category a{
- hover{
+.category a:hover{
    color: red;
 }
-}
+
 
 .latest-articles1{
   float: right;
