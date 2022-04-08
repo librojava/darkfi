@@ -20,7 +20,7 @@ layout: default
 
 <div class = "archives">
   {% for article in site.posts %}
-<div class = "archive" href="{{article.url}}">
+<div class = "archive" href="{{site.baseurl}}{{article.url}}">
  <span class = "title-archive">
   <h3 class = "bar-archive">{{article.title}}</h3>
    <p>{{article.paragraph}}</p>
