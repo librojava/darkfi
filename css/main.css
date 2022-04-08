@@ -24,7 +24,7 @@
 
 .header{ 
   height: 75px;
-  width: 100%;
+  width: 1920px;
   top: 0;
   left: 0;
   background: black;
@@ -32,7 +32,7 @@
 
 
 body{
-  width: 100%;
+  width: 1920px;
   margin: auto;
   background: black;
 }
@@ -40,7 +40,7 @@ body{
 footer{
   background: linear-gradient(#101b1c ,93% , #ff0028);
   height: 200px;
-  width: 100%;
+  width: 1920px;
   bottom: 0;
   display: grid;
 }
