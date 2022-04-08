@@ -466,42 +466,46 @@ footer{
     width: 100%;
   }
   .content1{
-    height: 1024px;
+    height: 1069px;
   }
   .content2{
-    height: 1024px;
+    height: 1069px;
   }
   
   .group{
-   height: 92.72%;
+   height: 92.98%;
+  }
+  
+  .title-img{
+    font-size: 16.5%;
   }
   
  .box1{
-  margin-left: 6.25%;
+  margin-left: 3.3%;
 }
 
 .box2{
-  margin-left: 2.60%;
+  margin-left: 1.5%;
 }
 
 .box3{
-  margin-left: 0.52%;
+  margin-left: 0.5%;
 }
 
 .box4{
-  margin-left: 7.81%;
+  margin-left: 6.8%;
 }
 
 .box5{
-  margin-left: 5.20%;
+  margin-left: 16%;
 }
 
 .box6{
-  margin-left: 0.52%;
+  margin-left: 2.5%;
 }
 
 .box7{
-  margin-left: 56%;
+  margin-left: 39%;
 }
 
 .box8{
