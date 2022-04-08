@@ -460,7 +460,7 @@ footer{
   width: 25px;
   margin-left: 10px;
 }
- @media only screen and (max-width: 1920px){
+ @media only screen and (max-width: 1920px) and (min-width: 1280px){
 }
 
  @media only screen and (max-width: 768px){
