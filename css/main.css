@@ -476,7 +476,7 @@ footer{
    height: 92.72%;
   }
   
-  box1{
+ .box1{
   margin-left: 6.25%;
 }
 
@@ -501,15 +501,15 @@ footer{
 }
 
 .box7{
-  margin-left: 26.04%;
+  margin-left: 56%;
 }
 
 .box8{
-  margin-left: 0.52%;
+  margin-left: 1.5%;
 }
 
 .box9{
-  margin-left: 0.52%;
+  margin-left: 2.5%;
   }
   
   .side_bar{
