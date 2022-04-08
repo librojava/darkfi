@@ -471,8 +471,52 @@ footer{
   .content2{
     height: 1024px;
   }
+  
+  .group{
+   height: 92.72%;
+  }
+  
+  box1{
+  margin-left: 6.25%;
 }
 
+.box2{
+  margin-left: 2.60%;
+}
+
+.box3{
+  margin-left: 0.52%;
+}
+
+.box4{
+  margin-left: 7.81%;
+}
+
+.box5{
+  margin-left: 5.20%;
+}
+
+.box6{
+  margin-left: 0.52%;
+}
+
+.box7{
+  margin-left: 26.04%;
+}
+
+.box8{
+  margin-left: 0.52%;
+}
+
+.box9{
+  margin-left: 0.52%;
+  }
+  
+  .side_bar{
+    margin-right: 35%;
+ }
+  
+}
 .article-image{
   position: relative;
 }
