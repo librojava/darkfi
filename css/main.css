@@ -461,7 +461,7 @@ footer{
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 1920px) and (min-width: 1280px){
+@media only screen and (max-width: 1920px){
   body{
     width: 1920px;
   }
