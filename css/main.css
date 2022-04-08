@@ -797,10 +797,10 @@ sup {
 
 @media only screen and (max-width: 1920px) and (min-width: 1400px){
   .side_bar{
-    margin-right: 24.6%;
+    margin-right: 53.5%;
  }
   #resp-table{
-    width: 38%;
+    width: 46%;
   }
   .article{
     margin-left: 33%;
@@ -812,6 +812,7 @@ sup {
   
   .text h1{
     font-size: 43pt;
+    height: 0px;
   }
 }
 
