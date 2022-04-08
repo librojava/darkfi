@@ -812,7 +812,7 @@ sup {
   
   .text h1{
     font-size: 43pt;
-    height: 0px;
+    height: none;
   }
 }
 
