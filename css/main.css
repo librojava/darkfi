@@ -461,6 +461,17 @@ footer{
   margin-left: 10px;
 }
 
+@media only screen and (max-width: 1920px;) and (min-width: 1400px;){
+  body{
+    width: 1920px;
+  }
+  .content1{
+    height: 1924px;
+  }
+  .content2{
+    height: 1024px;
+  }
+}
 
 .article-image{
   position: relative;
