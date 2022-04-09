@@ -528,32 +528,17 @@ footer{
   
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1280px) and (min-width: 768px){
    
   body{
     margin: 0;
     height: 100%;
    }
    
-  .articles{
-    display: table;
-  }
-  
-  .articles .img-node{
-    width: 100%;
-  }
-   
- .articles .title{
-   padding-bottom: 30px;
-   float: left;
-   padding-left: 20px;
-   width: 100%;
-   }
-  
- .content{
+ .content1{
    display: block;
    }
-  .content .category{
+  .content1 .category{
     width: 100%;
     height: 100%;
   }
@@ -585,76 +570,49 @@ footer{
      padding-left: 100px;
    }
    
-   .containers{
-     width: 100%;
-     border: none;
+.containers1{
+   width: 100%;
    }
      
-   .containers .latest-articles{
-     width: 100%;
+.containers1 .latest-articles1{
+   width: 100%;
+  float: left;
    }
-   .containers .group{
-     width: 100%;
+  
+.containers1 .group{
+  width: 100%;
    }
-   
-   .group{
-     display: table;
-   }
-   .group .img-1{
-     width: 100%;
-     padding-bottom: 30px;
-     border-right: none;
-   }
-   .group .img-2{
-     width: 100%;
-     padding-bottom: 30px;
-     
-   }
-   .group .img-3{
-     width: 100%;
-     padding-bottom: 30px;
-     border-right: none;
-   }
-   .group .img-4{
-     width: 100%;
-     padding-bottom: 30px;
-   }
-  .above-footer {
-  height: 28%;
-  display: table;
-  border-bottom: none;
-  padding-left: 0;
+  
+ .content2{
+   display: block;
+  }
+  
+.all-articles{
+  width: 100%;
+  float: left;
+  }
+  
+.containers2{
+  width: 100%;
+  }
+  
+.middle-table{
+  width: 100%;
+}
+  
+.latest-article2{
+  width: 100%;
 }
  
 .to-archive{
-  width: 100%;
-  height: 50%;
+  width: 45%;
 } 
-  
-.above-footer .go-to-archive{
-  width: 20%;
-  border-left: 20px solid aqua;
-  margin-left: 200px;
-}
-  
-.above-footer p{
-  width: 100%;
-}
- 
+
  .tag{
-  float: left;
-  width: 100%;
-  height: 50%;
-  border-left: none;
-  boder-bottom: 1px solid #343434;
-  border-top: 1px solid #343434;
-} 
-  
-.down-follow-img{
-  padding-left: 19%;
-  
- }
+  width: 54%;
+  }
 }
+
 .article-image{
   position: relative;
 }
