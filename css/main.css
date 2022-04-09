@@ -546,7 +546,7 @@ footer{
 
 .article{
  color :#d9c9c9;
- margin-left: 360px;
+ margin-left: 28%;
   
 }
 .article p{
@@ -798,6 +798,7 @@ sup {
 @media only screen and (max-width: 1920px) and (min-width: 1400px){
   .side_bar{
     margin-right: 53.5%;
+    width: 590px;
  }
   #resp-table{
     width: 46%;
