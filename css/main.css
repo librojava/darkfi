@@ -331,13 +331,6 @@ footer{
   padding-top: 28px;
  }
 
-.all-articles a{
-  color: aqua; 
-}
- 
-.all-articles a:hover{
-  color: #b20a2c;
-}
 
 .containers2{
   float: left;
@@ -403,15 +396,6 @@ footer{
   border-left: 0.01em solid #343434;
   font-family: "Inter-Bold.woff";
 }
-
-.go-to-archive a{
-  color: white;
-}
-
-.above-footer a:hover{
-  color: #343434;
-}
-
 
 .tag{
   float: right;
