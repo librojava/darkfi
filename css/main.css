@@ -321,7 +321,7 @@ footer{
 }
 
 .all-articles:hover{
-    background-color: #290404;
+    background-color: #260000;
 }
 
 .paragraphs {
@@ -331,7 +331,7 @@ footer{
   padding-top: 28px;
  }
  
-.all-articles .paragraph:hover{
+.all-articles .paragraphs:hover{
   color: #b20a2c;
 }
 
@@ -367,9 +367,6 @@ footer{
   width: 100%;
   color: white;
 }
-.above-footer:hover{
-  color: #343434;
-}
 
 .to-archive{
   float: left;
@@ -389,7 +386,7 @@ footer{
 }
 
 .above-footer .go-to-archive:hover {
-  box-shadow: inset 0px 0px 30px 5px	rgb(0,255,255); 
+  box-shadow: inset 0px 0px 15px 1px	rgb(0,255,255); 
   border-left: 8px solid #b20a2c;
 }
 
@@ -401,6 +398,10 @@ footer{
   text-decoration: none;
   border-left: 0.01em solid #343434;
   font-family: "Inter-Bold.woff";
+}
+
+.above-footer p:hover{
+  color: #343434;
 }
 
 .tag{
