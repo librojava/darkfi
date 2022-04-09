@@ -330,8 +330,12 @@ footer{
   padding-left: 35px;
   padding-top: 28px;
  }
+
+.all-articles a{
+  color: aqua; 
+}
  
-.all-articles .paragraphs:hover{
+.all-articles a:hover{
   color: #b20a2c;
 }
 
@@ -398,6 +402,10 @@ footer{
   text-decoration: none;
   border-left: 0.01em solid #343434;
   font-family: "Inter-Bold.woff";
+}
+
+.go-to-archive a{
+  color: white;
 }
 
 .above-footer a:hover{
