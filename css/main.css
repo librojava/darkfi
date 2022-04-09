@@ -537,6 +537,7 @@ footer{
    
  .content1{
    display: block;
+   height: 1100px;
    }
   
   .content1 .category{
@@ -573,6 +574,8 @@ footer{
    
 .containers1{
    width: 100%;
+  height: 100%;
+  border-bottom: 0.01em solid #343434;
    }
      
 .containers1 .latest-articles1{
@@ -586,30 +589,35 @@ footer{
   
  .content2{
    display: block;
+   height: 1100px;
   }
   
 .all-articles{
   width: 100%;
   float: left;
+  height: 75px;
   }
   
 .containers2{
   width: 100%;
+  height: 100%;
+  border-bottom: 0.01em solid #343434;
   }
   
 .middle-table{
   width: 100%;
+  height: 75px;
 }
   
 .latest-article2{
   width: 100%;
 }
  
-.to-archive{
-  width: 45%;
+.above-footer .to-archive{
+  width: 42%;
 } 
 
- .tag{
+ .above-footer .tag{
   width: 54%;
   }
 }
