@@ -326,7 +326,11 @@ footer{
   padding-left: 35px;
   padding-top: 28px;
  }
-  
+ 
+.all-articles .paragraph:hover{
+  color: #b20a2c;
+}
+
 .containers2{
   float: left;
   width: 60%;
@@ -378,7 +382,8 @@ footer{
 }
 
 .above-footer .go-to-archive:hover {
-  box-shadow: inset 0px 0px 15px 10px	rgb(0,255,255); 
+  box-shadow: inset 0px 0px 10px 10px	rgb(0,255,255); 
+  border-left: 8px solid #b20a2c;
 }
 
 .above-footer p{
