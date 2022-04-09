@@ -685,7 +685,7 @@ sup {
 }
 
 #resp-table{
-  width: 65%;
+  width: 63.5%;
   display: table;
   font-family: "Inter-Regular.woff";
 }
@@ -800,9 +800,14 @@ sup {
     margin-right: 53.5%;
     width: 590px;
  }
-  #resp-table{
-    width: 46%;
-  }
+  
+ #resp-table{
+   width: 46%;
+   border-left: 1px solid #343434;
+   border-right: 1px solid #343434;
+   padding-left: 10px;
+   padding-right: 10px;
+}
   .article{
     margin-left: 33%;
   }
