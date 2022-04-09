@@ -320,6 +320,10 @@ footer{
   font-size: 9pt;
 }
 
+.all-articles:hover{
+    background-color: #290404;
+}
+
 .paragraphs {
   color: aqua;
   text-align: left;
@@ -329,7 +333,6 @@ footer{
  
 .all-articles .paragraph:hover{
   color: #b20a2c;
-  background-color: #290404;
 }
 
 .containers2{
@@ -363,6 +366,9 @@ footer{
   height: 125px;
   width: 100%;
   color: white;
+}
+.above-footer:hover{
+  color: #343434;
 }
 
 .to-archive{
