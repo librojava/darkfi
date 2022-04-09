@@ -805,14 +805,14 @@ sup {
   .article{
     margin-left: 33%;
   }
-  .article-img .text{
+  .article-image .text{
     top: 130px;
     left: 520px;
   }
   
   .text h1{
     font-size: 43pt;
-    height: none;
+    height: 70px;
   }
 }
 
