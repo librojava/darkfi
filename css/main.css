@@ -1060,7 +1060,7 @@ sup {
   font-weight: bold;
 }
 
-/*@media only screen and (max-width: 1232px) and (min-width: 350px){
+@media only screen and (max-width: 1280px) and (min-width: 768px){
   .arrow{
     display: none;
   }
@@ -1255,5 +1255,4 @@ footer{
 }
   
 }
-*/
 
