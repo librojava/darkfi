@@ -1012,20 +1012,20 @@ sup {
   font-weight: bold;
 }
 
-.title-archive ul{
+.archive ul{
   padding: 0;
   margin: 0;
   color: #343434;
 }
 
-.title-archive li{
+.archive li{
   display: inline;
   padding-right: 8px;
   font-size: 8pt;
   color: #343434;
 }
 
-.title-archive a{
+.archive a{
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
   height-line: 1em;     
@@ -1060,8 +1060,12 @@ sup {
   padding-top:12px;
   font-weight: bold;
 }
-
-@media only screen and (max-width: 1280px) and (min-width: 768px){
+@media  only screen and (max-width: 1920px) and (min-width: 768px){
+  .archive{
+    padding-left: 530px;
+  }
+  
+@media only screen and (max-width: 768px) and (min-width: 0px){
   .arrow{
     display: none;
   }
