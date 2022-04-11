@@ -254,6 +254,10 @@ footer{
   text-decoration: none;
   color: white;
 }
+.img-1 img{
+  height: 200px;
+  width: 100%;
+}
 
 .title-img{
   color: white;
@@ -262,6 +266,8 @@ footer{
   font-size: 11.5px;
   font-weight: bold;
   font-family: "Inter-Bold.woff";
+  height: 170px; 
+  width: 100%;
 }
 
 .bar{
@@ -486,8 +492,14 @@ footer{
    height: 92.98%;
   }
   
+  .img-1 img{
+  height: 200px;
+  width: 100%;
+  }
+  
   .title-img{
     font-size: 16.5px;
+    height: 43%;
   }
   
  .box1{
