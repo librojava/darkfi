@@ -636,9 +636,11 @@ footer{
 }
 
 @media only screen and (max-width: 768px) and (min-width: 0px){
+  
   nav li{
     display: none;
   }
+  
   .featured-article{
     display: none;
   }
@@ -659,7 +661,7 @@ footer{
    width: 100%
   }
   
-  .categories {
+.categories {
   margin-left: 20px;
 }
 
@@ -679,9 +681,9 @@ footer{
   display: table;
   }
   
-  .containers1{
-    width: 100%;
-    float: left;
+.containers1{
+  width: 100%;
+  float: left;
   }
   
 .latest-img{
@@ -696,8 +698,9 @@ footer{
 .content2{
    display: table;
   }
-  .containers2{
-    width: 100%;
+  
+.containers2{
+  width: 100%;
   }
   
 .containers2 .group {
