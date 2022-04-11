@@ -679,7 +679,7 @@ footer{
   display: table;
   }
   
-  .conyainers1{
+  .containers1{
     width: 100%;
     float: left;
   }
@@ -696,6 +696,9 @@ footer{
 .content2{
    display: table;
   }
+  .containers2{
+    width: 100%;
+  }
   
 .containers2 .group {
   width: 100%;
@@ -705,8 +708,6 @@ footer{
 .all-articles {
   width: 100%%;
   }
-  
-  
   
 .above-footer {
   height: 200px;
