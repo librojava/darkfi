@@ -659,7 +659,7 @@ footer{
     float: left;
     height: 50%;
     padding-left: 30px;
-   font-size: 12pt;
+   font-size: 11pt;
   }
   
 .category{
@@ -685,7 +685,7 @@ footer{
   }
   
 .category li a{
-  padding-left: 150px;
+  padding-left: 40px;
   }
   
 .content1{
