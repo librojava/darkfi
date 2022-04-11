@@ -549,13 +549,13 @@ footer{
    
  .content1{
    display: block;
-   height: 946px;
+   height: 932px;
    border-bottom: 0.01em solid #343434;
    }
   
   .content1 .category{
     width: 100%;
-    height: 13%;
+    height: 100px;
     border-bottom: 1px solid #343434;
   }
    
@@ -598,7 +598,7 @@ footer{
   
  .content2{
    display: block;
-   height: 901px;
+   height: 906px;
   }
   
 .all-articles{
