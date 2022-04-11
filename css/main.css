@@ -636,13 +636,17 @@ footer{
 }
 
 @media only screen and (max-width: 768px) and (min-width: 0px){
-  
-  nav li{
-    display: none;
+ 
+  .header ul {
+  display: none;
   }
   
   .featured-article{
     display: none;
+  }
+  
+  .articles{
+    height: 400px;
   }
   
   .img-node {
@@ -655,6 +659,7 @@ footer{
     float: left;
     height: 50%;
     padding-left: 30px;
+   font-size: 12pt;
   }
   
 .category{
@@ -665,6 +670,9 @@ footer{
   margin-left: 20px;
 }
 
+.category h4{
+  float: left;
+  }
   
 .category ul {
   padding-left: 50px;
@@ -676,6 +684,9 @@ footer{
   padding-left: 10px;
   }
   
+.category li a{
+  padding-left: 150px;
+  }
   
 .content1{
   display: table;
@@ -709,7 +720,7 @@ footer{
   }
   
 .all-articles {
-  width: 100%%;
+  width: 100%;
   }
   
 .above-footer {
