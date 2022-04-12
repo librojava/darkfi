@@ -917,7 +917,6 @@ sup {
 .side_bar{
   border-left: 2px solid #a94b3c;
   border-right: 2px solid #a94b3c;
-  height: 200px;
   margin-right: 315px;
 }
 
@@ -1126,10 +1125,16 @@ sup {
   padding-top: 30px;
   }
   
-.code{
+/*.code{
   width: 90%;
   height: 50%;
   font-size: 8pt;
+  }*/
+  
+  .code {
+  width: 429px;
+  height: 42%;
+  font-size: 7pt;
   }
   
   .code p{
@@ -1139,18 +1144,23 @@ sup {
   
 .side_bar{
    margin-right: 30px;
-   width: 594px;
+   width: 427px;
   }
   
 .side_bar p{
-  font-size: 20pt;
+  font-size: 16pt;
   padding-left: 20px;
   line-height: 1.5em;
 } 
  
-#resp-table{
-  width: 574px;
-}
+#resp-table {
+  width: 409px;
+  border-left: 0.01em solid #343434;
+  border-right: 0.01em solid #343434;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  
 
 .article .edge{
   line-height: 1.4em;
