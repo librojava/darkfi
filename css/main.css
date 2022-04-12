@@ -1232,10 +1232,6 @@ footer{
   font-size: 10pt;
 }
 
-.categorys1 {
-    display: none;
-}
-
 .under-arrow nav{
   float: right;
   margin-right: 20px;
@@ -1357,9 +1353,7 @@ footer{
     height: 50%;
     width: 100%;  
   }
-  .categorys1 {
-        display: initial;
-    }
+ 
   
  .under-arrow nav{
     float: left;
