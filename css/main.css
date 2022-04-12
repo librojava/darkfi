@@ -787,7 +787,6 @@ footer{
 
 .text h1{
   border-left: 5px solid aqua;
-  height: 45px;
   padding-left: 10px;
   font-weight: bold;
   font-size: 30pt;
@@ -852,7 +851,7 @@ sup {
 }
   
 .bottom-img .bottom{
-  width: 600px;
+  width: 430px;
   height: 380px;
   padding-top: 30px;
 }
