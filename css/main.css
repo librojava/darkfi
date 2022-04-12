@@ -746,13 +746,13 @@ footer{
   border-top: 1px solid #343434;
 } 
   
-.above-footer-archive .go-to-archive{
+.above-footer .go-to-archive{
   width: 20%;
   border-left: 20px solid aqua;
   margin-left: 30%;
 }
   
-.above-footer-archive p{
+.above-footer p{
   width: 100%;
 }
  
