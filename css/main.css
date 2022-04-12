@@ -727,7 +727,7 @@ footer{
 .above-footer{
   height: 220px;
   display: table;
-  border-bottom: none;
+  border-bottom: 1px solid #343434;
   padding-left: 0;
 }
   
@@ -742,7 +742,6 @@ footer{
   width: 100%;
   height: 50%;
   border-left: none;
-  border-bottom: 1px solid #343434;
   border-top: none;
 } 
   
@@ -1085,17 +1084,17 @@ sup {
   .content-img {
   height: 200px;
 }
-  .article-image .text{
+ .article-image .text{
   position: absolute;
   top: 100px;
-  left: 23%;
+  left: 10%;
 }
-
   .article{
     height: 100%;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 5%;
     margin-right: 20px;
+    margin-top: 20%;
   }
   
   .article p{
