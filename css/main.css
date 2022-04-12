@@ -725,7 +725,7 @@ footer{
   }
   
 .above-footer{
-  height: ;
+  height: 220px;
   display: table;
   border-bottom: none;
   padding-left: 0;
@@ -1232,7 +1232,7 @@ footer{
   font-size: 10pt;
 }
 
-.hide {
+.categorys1 {
     display: none;
 }
 
