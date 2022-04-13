@@ -775,9 +775,9 @@ footer{
 } 
   
 .above-footer .go-to-archive{
-  width: 30%;
+  width: 32%;
   border-left: 20px solid aqua;
-  margin-left: 30%;
+  margin-left: 21%;
 }
   
 .above-footer .go-to-archive:hover{
@@ -786,7 +786,7 @@ footer{
   
 .above-footer p{
   width: 100%;
-  padding-left: 100px;
+  padding-left: 70px;
 }
  
   
