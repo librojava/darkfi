@@ -634,6 +634,33 @@ footer{
   border-top: none;
   height: 100%;
   }
+  .box1{
+    margin-left: 6%;
+  }
+  .box2{
+    margin-left: 4%;
+  }
+  .box3{
+    margin-left: 2%;
+  }
+  .box4{
+    margin-left: 12%;
+  }
+  .box5{
+    margin-left: 10%;
+  }
+  .box6{
+    margin-left: 2%;
+  }
+  .box7{
+    margin-left: 34%;
+  }
+  .box8{
+    margin-left: 2%;
+  }
+  .box9{
+    margin-left: 2%;
+  }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 0px){
