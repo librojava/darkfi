@@ -703,6 +703,7 @@ footer{
 
 .category h4{
   float: left;
+  font-size: 14pt;
   }
   
 .category ul {
@@ -713,6 +714,8 @@ footer{
 .category li {
   display: inline-block;
   padding-left: 33px;
+  padding-top: 10px;
+  font-size: 10pt;
   }
   
 .content1{
