@@ -1070,6 +1070,7 @@ sup {
   }
 }
 
+
 @media only screen and (max-width: 768px) and (min-width: 0px){
   
 .head nav{
@@ -1119,8 +1120,8 @@ sup {
 }
   
 .bottom-img .bottom{
-  width: 90%;
-  height: 280px;
+  width: 103%;
+  height: 30%;
   padding-top: 30px;
   }
   
