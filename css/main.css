@@ -40,7 +40,7 @@ body{
 footer{
   background: linear-gradient(#101b1c ,93% , #ff0028);
   height: 200px;
-  width: 100%;
+  width: 99%;
   bottom: 0;
   display: grid;
 }
@@ -1120,7 +1120,7 @@ sup {
 }
   
 .bottom-img .bottom{
-  width: 103%;
+  width: 429px;
   height: 30%;
   padding-top: 30px;
   }
