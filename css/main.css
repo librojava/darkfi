@@ -40,7 +40,7 @@ body{
 footer{
   background: linear-gradient(#101b1c ,93% , #ff0028);
   height: 200px;
-  width: 99%;
+  width: 100%;
   bottom: 0;
   display: grid;
 }
@@ -851,7 +851,7 @@ sup {
 }
   
 .bottom-img .bottom{
-  width: 430px;
+  width: 595px;
   height: 380px;
   padding-top: 30px;
 }
@@ -934,7 +934,7 @@ sup {
 }
 
 #resp-table{
-  width: 595%;
+  width: 595px;
   display: table;
   font-family: "Inter-Regular.woff";
 }
