@@ -917,6 +917,7 @@ sup {
   border-left: 2px solid #a94b3c;
   border-right: 2px solid #a94b3c;
   margin-right: 315px;
+  width: 595px;
 }
 
 
@@ -933,7 +934,7 @@ sup {
 }
 
 #resp-table{
-  width: 63.5%;
+  width: 595%;
   display: table;
   font-family: "Inter-Regular.woff";
 }
