@@ -202,10 +202,27 @@
 </div>
 
 <div class = "go-to-article">
- <span class = "previous-article">
-   <p>Title (Previous article)</p>
- </span>
- <span class = "next-article">
-   <p>Title (Next article)</p>
- </span>
+ {% for post in site.posts %}
+  {% assign post_url = posts | prepend:"/posts/" | append:"/" %}
+  {% if post_url == page.url %}
+ <div class = "section-nav>
+   <div class = "left align-right">
+     {% if forloop.first %}
+      <span class = "previous-article">Title (Previous article)</span>
+     {% else %}
+       {% assign previous = forloop.index0 | minus: 1 %}
+       {% assign previous_page = posts[previous] | prepend: "/posts/" | append: "/" %}
+         <a href = "{{previous_page | relative_url}}" class = "prev">Title (previous article)</a>
+     {% endif %}
+    </div>
+    <div class = "right align-left">
+     {% if forloop.last %}
+      <span class = "next-article">Title (Next article)</span>
+      {% else %}
+       {% assign next = forloop.index0 | plus: 1 %}
+       {% assign next_page = posts[next] | prepend: "/posts/" | append: "/" %}
+         <a href = "{{next_page | relative_url}}" class = "next">Title (next article)</a>
+     {% endif %}
+   </div>
+ </div>
 </div>
