@@ -204,9 +204,13 @@
 
 <div class = "go-to-article">
  <span class = "previous-article">
-   <p>Title (Previous article)</p>
+  {% if page.previous.url %}
+   <a class = "remove-underline" href="{{page.previous.url}}">&laquo; Title (Previous article)</a>
+  {% endif %}
  </span>
  <span class = "next-article">
-   <p>Title (Next article)</p>
+  {% if page.next.url %}
+   <a class ="remove-underline" href= "{{page.next.url}}">Title (Next article) &raquo;</a>
+  {% endif %}
  </span>
 </div>
