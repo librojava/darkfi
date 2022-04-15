@@ -1055,7 +1055,7 @@ sup {
   height: 100%;
 }
 
-.go-to-article .previous-article a{
+.go-to-article .previous-article p{
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
@@ -1066,7 +1066,7 @@ sup {
   float: right;
 }
 
-.go-to-article .next-article a{
+.go-to-article .next-article p{
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 20px;
