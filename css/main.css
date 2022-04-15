@@ -67,6 +67,9 @@ footer{
   font-weight: bold;
 }
 
+.topnav .icon {
+  display: none;
+
 .nav{
   display: flex;
   justify-content: space-between;
