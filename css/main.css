@@ -17,6 +17,7 @@
   font-family: "Inter-Bold.woff";
   src: url("../files/font/Inter-Bold.woff");
 }
+
 @font-face{
   font-family: "Inter-Regular.woff";
   src: url("../files/font/Inter-Regular.woff");
@@ -69,6 +70,7 @@ footer{
 
 .topnav .icon {
   display: none;
+}
 
 .nav{
   display: flex;
@@ -258,6 +260,7 @@ footer{
   text-decoration: none;
   color: white;
 }
+
 .img-1 img{
   height: 200px;
   width: 100%;
@@ -420,8 +423,6 @@ footer{
   width: 20px;
   height: 20px;
 }
-
-
 
 .box a{
   height: 15px;
