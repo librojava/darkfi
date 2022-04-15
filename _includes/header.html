@@ -3,25 +3,23 @@
       <img src="{{site.baseurl}}/files/icons/logo.svg">
       <div class = "nav">
             <h1>Blog</h1>
-            <div class="topnav">
-              <div id="myLinks">
-                    <ul>
+            <div class="topnav" id="myLinks">
+               <ul>
                 <li><a class = "remove-underline" href ="https://github.com/darkrenaissance/darkfi">Source code</a></li>
                 <li><a class = "remove-underline" href ="https://dark.fi/manifesto.html">Manifesto</a></li>
                 <li><a class = "remove-underline" href = "https://element.dark.fi/">Community</a></li>
-                          </ul>
-              </div>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               </ul>
+               <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                    <i class="fa fa-bars"></i>
-                </a>
+               </a>
             </div>
             <script>
-              function myFunction() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
               } else {
-                x.style.display = "block";
+                x.className = "topnav";
               }
             }
             </script>
