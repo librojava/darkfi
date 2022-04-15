@@ -77,14 +77,10 @@ footer{
   justify-content: space-between;
 }
 
-.header ul{
-  list-style-type: none;
-}
-
 .nav a{
   color: white;
   display: inline-block;
-  margin-top: 10px;  
+  margin-top: 30px;  
   margin-left: 15px;
   margin-right: 50px;
   text-decoration: none;
@@ -671,7 +667,7 @@ footer{
 }
   
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a{display: none;}
   .topnav a.icon {
     float: right;
     display: block;
