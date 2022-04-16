@@ -684,6 +684,10 @@ footer{
   .topnav a.icon {
     float: right;
     display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
   }
 }
 
