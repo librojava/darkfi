@@ -697,7 +697,7 @@ footer{
     right: 0;
     top: 0;
   }
-  .topnav.responsive a {
+  .option a {
     float: none;
     display: block;
     text-align: left;
