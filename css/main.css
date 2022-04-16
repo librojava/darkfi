@@ -689,7 +689,7 @@ footer{
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;
-    paading-top: 75px;
+    padding-top: 75px;
     background-color: black;
     width: 100%;
   }
