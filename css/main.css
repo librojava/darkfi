@@ -67,6 +67,11 @@ footer{
   color: white;
   font-weight: bold;
 }
+.topnav{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
 
 .topnav a {
   float: left;
@@ -79,6 +84,10 @@ footer{
 
 .topnav .icon {
   display: none;
+}
+
+.fa-bars{
+  display: block;
 }
 
 .nav{
