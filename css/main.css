@@ -697,6 +697,10 @@ footer{
     right: 0;
     top: 0;
   }
+  .option{
+    width: 100%;
+  }
+  
   .option a {
     float: none;
     display: block;
