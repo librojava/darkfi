@@ -681,13 +681,13 @@ footer{
   
 @media screen and (max-width: 600px) {
   .topnav a{display: none;}
-  /*.topnav a.icon {
+  .topnav a.icon {
     float: right;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-}*/
+
   }
 }
 
