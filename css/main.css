@@ -78,8 +78,8 @@ footer{
   color: white;
   display: inline-block;
   margin-top: 30px;  
-  margin-left: 15px;
-  margin-right: 50px;
+  padding-left: 15px;
+  padding-right: 50px;
   text-decoration: none;
   font-size: 13px;
   font-family: "Inter-Bold.woff";
@@ -94,6 +94,7 @@ footer{
 .nav{
   display: flex;
   justify-content: space-between;
+  height: 75px;
 }
 
 
