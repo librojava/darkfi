@@ -63,11 +63,11 @@ footer{
   font-size: 24pt;
   font-style: inter-Black;
   text-shadow: 0 0 4px Aqua;
-  padding-bottom: 15px;
   padding-left: 45%;
   letter-spacing: -0.05em; 
   color: white;
   font-weight: bold;
+  margin-bottom: 0;
 }
 .topnav{
   overflow: hidden;
@@ -707,6 +707,7 @@ footer{
     margin-right: 0;
     margin-left: 0;
     padding-left: 15px;
+    padding-top: 12px;
     }
 }
   
