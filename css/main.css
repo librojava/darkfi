@@ -57,7 +57,7 @@ footer{
   padding-top: 20px;
 }
 
-.header h1{
+.topnav h1{
   width: 100px;
   height: 100%;
   font-size: 24pt;
@@ -69,15 +69,22 @@ footer{
   color: white;
   font-weight: bold;
 }
-
-.topnav a {
-  float: left;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.topnav{
+  overflow: hidden;
+  background-color: black;
 }
+
+.topnav a{
+  color: white;
+  display: inline-block;
+  margin-top: 30px;  
+  margin-left: 15px;
+  margin-right: 50px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Inter-Bold.woff";
+}
+
 
 .topnav .icon {
   display: none;
@@ -89,16 +96,7 @@ footer{
   justify-content: space-between;
 }
 
-.nav a{
-  color: white;
-  display: inline-block;
-  margin-top: 30px;  
-  margin-left: 15px;
-  margin-right: 50px;
-  text-decoration: none;
-  font-size: 13px;
-  font-family: "Inter-Bold.woff";
-}
+
 
 .featured-article{
   width: 100%;
@@ -687,18 +685,10 @@ footer{
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 17px;
-    margin-right: 6%;
-
   }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;
-    padding-top: 75px;
-    background-color: black;
-    width: 100%;
-  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
