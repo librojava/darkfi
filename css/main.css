@@ -707,6 +707,7 @@ footer{
   }
   .topnav.responsive a.active{
     border-top: 2px solid #343434;
+    padding-top: 10px;
   }
   .topnav.responsive a.actives{
     border-bottom: 2px solid #343434;
