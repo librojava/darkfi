@@ -691,6 +691,9 @@ footer{
   .topnav h1{
     float: none;
   }
+  .header a{
+    margin-top: 15px;
+  }
 }
 
 @media screen and (max-width: 600px) {
