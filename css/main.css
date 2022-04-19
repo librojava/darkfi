@@ -705,6 +705,13 @@ footer{
     padding-right: 30px;
     
   }
+  .topnav.responsive a.active{
+    border-top: 2px solid #343434;
+  }
+  .topnav.responsive a.actives{
+    border-bottom: 2px solid #343434;
+  }
+    
   .topnav.responsive a{
     float: none;
     display: block;
