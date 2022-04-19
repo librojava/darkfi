@@ -353,6 +353,11 @@ footer{
   padding-top: 28px;
  }
 
+.paragraphs a{
+  color: aqua;
+}
+
+
 .paragraphs a:hover{
   color: red;
 }
