@@ -850,10 +850,6 @@ footer{
   }
 }
 
-.article-image{
-  position: relative;
-}
-
 .content-img{
   border-top: 1px solid #343434;
   width: 100%;
@@ -1164,15 +1160,12 @@ sup {
   display: none;
 }
   
-  .article-image{
-    position: relative;
-}
   .content-img {
   height: 200px;
 }
  .article-image .text{
   position: absolute;
-  top: 100px;
+  top: 230px;
   left: 10%;
 }
   .article{
