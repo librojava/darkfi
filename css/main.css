@@ -688,6 +688,9 @@ footer{
     right: 0;
     top: 0;
   }
+  .topnav h1{
+    float: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -709,7 +712,7 @@ footer{
     margin-left: 0;
     padding-left: 15px;
     padding-top: 12px;
-    }
+  }
 }
   
 @media only screen and (max-width: 768px) and (min-width: 0px){
