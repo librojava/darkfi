@@ -353,6 +353,9 @@ footer{
   padding-top: 28px;
  }
 
+.paragraphs a:hover{
+  color: red;
+}
 
 .containers2{
   float: left;
