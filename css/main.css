@@ -686,7 +686,7 @@ footer{
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 10px;
   }
   .topnav h1{
     float: none;
@@ -700,10 +700,8 @@ footer{
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
-    top: 0;
     border-bottom: none;
     padding-right: 30px;
-    padding-top: 9px;
     
   }
   .topnav.responsive a{
