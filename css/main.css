@@ -343,6 +343,7 @@ footer{
 
 .all-articles:hover{
     background-color: #260000;
+    color: red;
 }
 
 .paragraphs {
