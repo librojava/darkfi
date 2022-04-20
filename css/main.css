@@ -178,7 +178,7 @@ footer{
   border-bottom: 0.01em solid #343434;
 }
 
-.lable:after{
+.category:after{
   content: "<div class = "category">
   <div class= "categories">
    <h4 class = "categories_bar">Categories</h4>
