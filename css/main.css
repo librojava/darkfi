@@ -188,7 +188,7 @@ footer{
 }
 
 .category:hover ul li.a:after{
-  content: 'iner'
+  content: 'iner';
 }
 
 .containers1{
