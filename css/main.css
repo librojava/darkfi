@@ -178,6 +178,20 @@ footer{
   border-bottom: 0.01em solid #343434;
 }
 
+.lable:after{
+  content: "<div class = "category">
+  <div class= "categories">
+   <h4 class = "categories_bar">Categories</h4>
+    <ul style="list-style: none;">
+      <li><a>Insight</a></li>
+      <li><a>Technology</a></li>
+      <li><a>History</a></li>
+      <li><a>Markets</a></li>
+      <li><a>Xenopoetics</a></li>
+    </ul>
+  </div>"
+}
+
 .category{
   width: 39.94%;
   float: left;
