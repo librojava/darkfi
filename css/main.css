@@ -225,8 +225,12 @@ footer{
   font-family: "Inter-Bold.woff";
 }
 
+.category a:hover{
+   color: #b20a2c;
+   content: 'iner'; 
+}
+
 .category a:hover ~ .content2 .group{
-  color: #b20a2c;
   content: default;
 }
 
