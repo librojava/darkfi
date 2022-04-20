@@ -84,7 +84,6 @@
 
 
   <div class = "group">
-   {% if .category a:hover %}
   {% for article in site.categories.insight limit:4 %}
   <div class = "latest-img">
     <a class = "remove-underline" href = "{{site.baseurl}}{{article.url}}">
@@ -108,7 +107,6 @@
     </a>
   </div>
    {% endfor %}
-   {% endif %}
 
  </div>
 </div>
