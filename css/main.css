@@ -187,6 +187,10 @@ footer{
   background: linear-gradient(#000000 ,40% ,#001f18);
 }
 
+.category:hover ul li.a:after{
+  content: 'iner'
+}
+
 .containers1{
   float: right;
   width: 60%;
