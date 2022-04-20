@@ -187,8 +187,9 @@ footer{
   background: linear-gradient(#000000 ,40% ,#001f18);
 }
 
-.category:hover ul li.a:after{
+.category:hover a:after{
   content: 'iner';
+  color: green;
 }
 
 .containers1{
