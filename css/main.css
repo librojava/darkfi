@@ -214,12 +214,12 @@ footer{
   padding-left: 20px;
 }
 
-.lable .categories_bar{
+.categories_bar{
   border-left: 4px solid #b20a2c;
   height: 25px;
 }
 
-.lable .category h4{
+.category h4{
   font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
   font-size: 17pt; 
@@ -228,21 +228,20 @@ footer{
   padding-top: 5px;
 }
 
-.lable .category ul{
+.category ul{
   margin: 0;
   padding-left: 15px;
   color: white;
 }
 
-.lable .category li{
+.category li{
   font-size: 12pt;
   padding-top: 5px;
   font-family: "Inter-Bold.woff";
 }
 
-.lable category a:hover{
+.category a:hover{
    color: #b20a2c;
-   content: 'iner'; 
 }
 
 
