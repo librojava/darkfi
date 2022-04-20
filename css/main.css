@@ -187,11 +187,6 @@ footer{
   background: linear-gradient(#000000 ,40% ,#001f18);
 }
 
-.category .a:hover a:after{
-  content: 'iner';
-  color: green;
-}
-
 .containers1{
   float: right;
   width: 60%;
@@ -230,8 +225,9 @@ footer{
   font-family: "Inter-Bold.woff";
 }
 
-.category a:hover{
-   color: #b20a2c;
+.category a:hover:after{
+  color: #b20a2c;
+  content: 'iner';
 }
 
 
