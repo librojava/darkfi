@@ -193,7 +193,7 @@ footer{
     </div>"
 }
 
-.category{
+.lable .category{
   width: 39.94%;
   float: left;
   margin-top: 0;
@@ -202,7 +202,7 @@ footer{
   background: linear-gradient(#000000 ,40% ,#001f18);
 }
 
-.containers1{
+.lable .containers1{
   float: right;
   width: 60%;
   height: 100%;
@@ -210,16 +210,16 @@ footer{
   box-sizing: border-box;
 }
 
-.categories{
+.lable .categories{
   padding-left: 20px;
 }
 
-.categories_bar{
+.lable .categories_bar{
   border-left: 4px solid #b20a2c;
   height: 25px;
 }
 
-.category h4{
+.lable .category h4{
   font-family: "Chomsky" , sans-serif;
   padding-left: 10px;
   font-size: 17pt; 
@@ -228,25 +228,21 @@ footer{
   padding-top: 5px;
 }
 
-.category ul{
+.lable .category ul{
   margin: 0;
   padding-left: 15px;
   color: white;
 }
 
-.category li{
+.lable .category li{
   font-size: 12pt;
   padding-top: 5px;
   font-family: "Inter-Bold.woff";
 }
 
-.category a:hover{
+.lable category a:hover{
    color: #b20a2c;
    content: 'iner'; 
-}
-
-.category a:hover ~ .content2 .group{
-  content: default;
 }
 
 
