@@ -205,6 +205,21 @@ footer{
     content:'NEW';
 }
 
+p::before{
+  content: "hello ";
+  color: white;
+  font-size: 60px;
+  background: salmon;
+  margin-bottom: 20px;
+}
+
+p::after{
+  display: inline-block;
+  content: "";
+  height: 100px;
+  width: 100px;
+  background: green;
+}
 .category{
   width: 39.94%;
   float: left;
