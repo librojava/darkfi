@@ -182,7 +182,11 @@ footer{
 }
 
 .label:after{
- content:"Insight Technology History Markets Xenopoeties";
+ content:"Insight" 
+   "Technology" 
+   "History" 
+   "Markets" 
+   "Xenopoeties";
  display: inline-block;
 }
 .label:hover:after{
