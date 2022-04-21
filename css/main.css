@@ -177,9 +177,13 @@ footer{
   width: 100%;
   border-bottom: 0.01em solid #343434;
 }
+.label{
+  display: inline-block;
+}
 
 .label:after{
- content:"Insight; Technology; History; Markets; Xenopoeties;"
+ content:"Insight Technology History Markets Xenopoeties";
+ display: inline-block;
 }
 
 
