@@ -182,11 +182,25 @@ footer{
 }
 
 .label:after{
- content:"Insight Technology History Markets Xenopoeties";
+ content:"Insight";
  display: inline-block;
 }
-
-
+.label:after{
+ content:"Technology";
+ display: inline-block;
+}
+.label:after{
+ content:"History";
+ display: inline-block;
+}
+.label:after{
+ content:"Markets";
+ display: inline-block;
+}
+.label:after{
+ content:"Xenopoeties";
+ display: inline-block;
+}
 .label:hover:after{
     content:'NEW';
 }
