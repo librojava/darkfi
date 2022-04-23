@@ -379,6 +379,7 @@ footer{
   float: left;
   width: 49%;
   height: 100%;
+  color: white;
 }
 
 .all-number{
@@ -386,9 +387,10 @@ footer{
   width: 50%;
   height: 100%;
   border-left: 0.01em solid #343434;
+  color: white;
 }
 
-.pagening{
+.all-number .pagening{
   padding-left: 20px;
 }
 
