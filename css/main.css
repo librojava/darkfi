@@ -388,6 +388,9 @@ footer{
   border-left: 0.01em solid #343434;
 }
 
+.pagening{
+  padding-left: 20px;
+}
 
 .above-footer{
   border-bottom: 0.01em solid #343434;
