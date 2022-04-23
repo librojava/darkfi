@@ -389,6 +389,9 @@ footer{
   border-left: 0.01em solid #343434;
   color: white;
 }
+.page-number{
+  padding-top: 10px;
+}
 
 .pagening{
   padding-left: 20px;
