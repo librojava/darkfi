@@ -1,3 +1,4 @@
 markdown:  kramdown
 baseurl: /darkfi
-paginate_path: "/archive.html/page:7/"
+paginate: 7
+paginate_path: "/archive.html/page:num/"
