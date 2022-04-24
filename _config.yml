@@ -1,3 +1,3 @@
 markdown:  kramdown
 baseurl: /darkfi
-
+paginate: 7
