@@ -30,8 +30,7 @@
   left: 0;
   background: black;
   position: relative;
-  border-bottom: 1px solid #343434;
-  
+  border-bottom: 1px solid #343434; 
 }
 
 
@@ -70,6 +69,7 @@ footer{
   font-weight: bold;
   float: left;
 }
+
 .topnav{
   overflow: hidden;
   background-color: black;
@@ -86,7 +86,6 @@ footer{
   font-family: "Inter-Bold.woff";
   float: right;
 }
-
 
 .topnav .icon {
   display: none;
@@ -106,7 +105,6 @@ footer{
   border-bottom: 1px solid #343434;
   height: 75px;
 }
-
 
 .paragraph {
   color: #343434;
@@ -389,6 +387,7 @@ footer{
   border-left: 0.01em solid #343434;
   color: #343434;
 }
+
 .page-number{
   padding-left: 37%;
   padding-top: 4%;
@@ -667,27 +666,35 @@ footer{
   border-top: none;
   height: 100%;
   }
+  
   .box1{
     margin-left: 6%;
   }
+  
   .box2{
     margin-left: 4%;
   }
+  
   .box3{
     margin-left: 2%;
   }
+  
   .box4{
     margin-left: 12%;
   }
+  
   .box5{
     margin-left: 10%;
   }
+  
   .box6{
     margin-left: 2%;
   }
+  
   .box7{
     margin-left: 34%;
   }
+  
   .box8{
     margin-left: 2%;
   }
@@ -709,6 +716,7 @@ footer{
   .topnav h1{
     float: none;
   }
+  
   .header a{
     margin-top: 15px;
     padding-right: 30px;
@@ -720,13 +728,14 @@ footer{
     position: absolute;
     right: 0;
     border-bottom: none;
-    padding-right: 30px;
-    
+    padding-right: 30px;  
   }
+  
   .topnav.responsive a.active{
     border-top: 2px solid #343434;
     padding-top: 16px;
   }
+  
   .topnav.responsive a.actives{
     border-bottom: 2px solid #343434;
     padding-bottom: 5px;
@@ -833,11 +842,11 @@ footer{
 .all-articles {
   width: 100%;
   }
-  .page-number{
+  
+.page-number{
   padding-left: 16%;
   padding-top: 27px;
 }
-
   
 .above-footer{
   height: 220px;
@@ -932,6 +941,7 @@ footer{
 .head1{
   font-family: "Inter-Bold.woff";
 }
+
 .head1 h2{
   font-size: 27pt;
 }
@@ -1125,7 +1135,6 @@ sup {
   border-bottom: 1px solid #343434;
   width: 100%;
   height: 100px; 
-
 }
 
 .go-to-article .previous-article{
@@ -1170,15 +1179,17 @@ sup {
    padding-left: 10px;
    padding-right: 10px;
 }
-  .article{
-    margin-left: 33%;
+  
+.article{
+  margin-left: 33%;
   }
-  .article-image .text{
+  
+.article-image .text{
     top: 130px;
     left: 520px;
   }
   
-  .text h1{
+ .text h1{
     font-size: 43pt;
     height: 70px;
   }
@@ -1194,6 +1205,7 @@ sup {
   .content-img {
   height: 200px;
 }
+
  .article-image .text{
   position: absolute;
   top: 230px;
@@ -1341,6 +1353,7 @@ footer{
   height: 75px;
   width: 100%;
 }
+
 .Archive1 {
   color: grey;
   float: left;
@@ -1448,6 +1461,7 @@ footer{
   padding-top:12px;
   font-weight: bold;
 }
+
 @media  only screen and (max-width: 1920px) and (min-width: 768px){
   .archive{
     padding-left: 530px;
