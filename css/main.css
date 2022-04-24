@@ -390,11 +390,12 @@ footer{
   color: #343434;
 }
 .page-number{
-  padding-left: 280px;
+  padding-left: 37%;
+  padding-top: 4%;
 }
 
 .pagening{
-  padding-left: 20px;
+  padding-left: 4%;
 }
 
 .above-footer{
@@ -832,6 +833,11 @@ footer{
 .all-articles {
   width: 100%;
   }
+  .page-number{
+  padding-left: 16%;
+  padding-top: 27px;
+}
+
   
 .above-footer{
   height: 220px;
