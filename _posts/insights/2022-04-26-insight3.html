@@ -5,9 +5,10 @@
  tag: insight
  title: Title.
  paragraph: Subtitle--Lorem ipsum dolor sit amet,consectetur adipis<br> cing elit, sed do eiusmod tempor incididunt ut labore et nunc<br> dolore magna aliqua
- list1: 03.04.2022
+ list1: 26.04.2022
  list2: Permalink
  list3: Insight
+ permalink: /article10/
 ---
 
 
@@ -22,7 +23,7 @@
  <div class="list">
   <ul>
       <li><a>{{page.list1}}</a></li>
-      <li><a href="{{page.url}}">{{page.list2}}</a></li>
+      <li><a class = "remove-underline" href = "{{site.baseurl}}{{page.url}}" style="color: #343434;">{{page.list2}}</a></li>
       <li><a>{{page.list3}}</a></li>
    </ul>
  </div>
