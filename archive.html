@@ -1,5 +1,6 @@
 ---
 layout: default
+url: archive.html
 ---
  <div class = "arrow">
      <p><a class = "remove-underline" href= "{{site.baseurl}}/index.html" style="color: grey">&#8592;</a></p>
@@ -43,17 +44,15 @@ layout: default
   </span>
    <div class = "all-number">
     <div class = page-number>
-     {% for post in paginator.posts %}
-    <td><a href="{{ post.url }}" class = "pagening">2</a></td>
+    <td><a href="{{ page.url }}" class = "pagening">2</a></td>
     <td><a  class = "pagening">|</a></td>
-    <td><a href="{{ post.url }}" class = "pagening">4</a></td>
+    <td><a href="{{ page.url }}" class = "pagening">4</a></td>
     <td><a class = "pagening">|</a></td>
-    <td><a href="{{ post.url }}" class = "pagening">5</a></td>
+    <td><a href="{{ page.url }}" class = "pagening">5</a></td>
     <td><a class = "pagening">|</a></td>
-    <td><a href="{{ post.url }}" class = "pagening">6</a></td>
+    <td><a href="{{ page.url }}" class = "pagening">6</a></td>
     <td><a class = "pagening">|</a></td>
-    <td><a href="{{ post.url }}" class = "pagening">7</a></td>
-     {% enfor %}
+    <td><a href="{{ page.url }}" class = "pagening">7</a></td>
      </div>
    </div>
 </div>
