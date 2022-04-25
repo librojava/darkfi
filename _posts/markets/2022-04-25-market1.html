@@ -1,14 +1,14 @@
 ---
  layout: default
- url: /markets/2022/04/02/market1.html
+ url: /markets/2022/04/25/market1.html
  img: /files/img/background_7.png
  tag: market
  title: Title.
  paragraph: Subtitle--Lorem ipsum dolor sit amet,consectetur adipis<br> cing elit, sed do eiusmod tempor incididunt ut labore et nunc<br> dolore magna aliqua
- list1: 02.04.2022
+ list1: 25.04.2022
  list2: Permalink
  list3: Market
- permalink: /article/
+ permalink: /article13/
 ---
 
 
@@ -19,13 +19,14 @@
   </div>
 </div>
 
-div class= "article">
+
+<div class= "article">
  <div class="list">
   <ul>
-    <li><a>{{page.list1}}</a></li>
-    <li><a href="{{site.baseurl}}/2022/04/02/market1.html">{{page.list2}}</a></li>
-    <li><a>{{page.list3}}</a></li>
-  </ul>
+      <li><a>{{page.list1}}</a></li>
+      <li><a class = "remove-underline" href = "{{site.baseurl}}{{page.url}}" style="color: #343434;">{{page.list2}}</a></li>
+      <li><a>{{page.list3}}</a></li>
+   </ul>
  </div>
    
  <div class ="head1">
