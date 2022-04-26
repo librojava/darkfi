@@ -1390,6 +1390,11 @@ footer{
   padding-left: 350px;
 }
 
+.archive:hover{
+    background-color: #260000;
+    color: red;
+}
+
 .title-archive{
   color: white;
   font-size: 9pt;
@@ -1430,12 +1435,6 @@ footer{
   border-top: 0.01em solid #343434;
   border-bottom: 0.01em solid #343434;
   height-line: 1em;     
-}
-
-
-.archive a:hover{
-    background-color: #260000;
-    color: red;
 }
 
 
