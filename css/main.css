@@ -1433,7 +1433,7 @@ footer{
 }
 
 
-.archive:hover{
+.archive a:hover{
     background-color: #260000;
     color: red;
 }
